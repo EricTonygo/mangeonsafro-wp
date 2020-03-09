@@ -1,0 +1,58 @@
+/* line 3, ../../sass/imports/footer.scss */
+.footitle {
+  background: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #ffffff;
+  text-align: left;
+  margin: 5px 0 20px;
+}
+
+/* line 14, ../../sass/imports/footer.scss */
+div.yt-socialbt {
+  display: inline-block;
+  margin-right: 12px;
+  text-align: left;
+}
+/* line 19, ../../sass/imports/footer.scss */
+div.yt-socialbt i.icon {
+  font-size: 1.5em;
+}
+
+/* line 26, ../../sass/imports/footer.scss */
+.yt-socialbt a {
+  width: 35px;
+  height: 35px;
+  line-height: 34px;
+}
+
+/* line 32, ../../sass/imports/footer.scss */
+.footbottom {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+/* line 37, ../../sass/imports/footer.scss */
+.blog-links {
+  text-align: left;
+}
+
+/* line 41, ../../sass/imports/footer.scss */
+.ui.vertical.segment.footer {
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  border-top-style: solid !important;
+  border-top-width: 0.1px !important;
+  border-top-color: #dededf !important;
+  background: #232f3e;
+  color: #FFF;
+  margin-top: 1em;
+}
+/* line 49, ../../sass/imports/footer.scss */
+.ui.vertical.segment.footer a {
+  color: #FFF;
+}
+/* line 52, ../../sass/imports/footer.scss */
+.ui.vertical.segment.footer .four.wide.column.center.aligned {
+  box-shadow: none;
+}

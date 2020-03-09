@@ -1,0 +1,490 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 29, 2017, 10:25:46 PM
+    Author     : Bookshare
+*/
+/*body { 
+    background: #f5f5ea url(//skin.livrenpoche.com/frontend/livrenpoche/default/images/bg-owl.gif) no-repeat center top fixed;
+}*/
+/* line 16, ../../sass/imports/categories.scss */
+.post-image {
+  width: 100%;
+}
+
+/* line 19, ../../sass/imports/categories.scss */
+ody section.middle .container .contentColumn.Product .liWrap .bookDetails .leftBottom .priceCopy {
+  margin-top: 20px;
+  font-size: 12px;
+  margin-left: 0;
+}
+
+/* line 25, ../../sass/imports/categories.scss */
+.priceCopy {
+  margin-left: 30px;
+}
+
+/* line 29, ../../sass/imports/categories.scss */
+.headingCopies {
+  color: #e84138;
+  font: 17px 'Dosis',sans-serif;
+  margin-left: 0px;
+  margin-top: -2px;
+}
+
+/* line 37, ../../sass/imports/categories.scss */
+priceCopy li {
+  background-image: url(//skin.livrenpoche.com/frontend/livrenpoche/default/images/arrowBlue.png);
+}
+
+/* line 41, ../../sass/imports/categories.scss */
+#sepline {
+  border-bottom-color: #e1e1d1;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-color: #e1e1d1;
+  border-top-style: solid;
+  border-top-width: 1px;
+  clear: both;
+  display: block;
+  height: 1px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  /*width: 200px;*/
+  /* clear: both; */
+  height: 3px;
+  /* border-top: 1px solid #e1e1d1; */
+  /* border-bottom: 1px solid #e1e1d1; */
+}
+
+/* line 63, ../../sass/imports/categories.scss */
+.pad {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+/* line 67, ../../sass/imports/categories.scss */
+.author {
+  color: #e84138;
+  padding: 0;
+  line-height: 1em;
+  font-family: 'Dosis',sans-serif;
+  font-weight: normal;
+}
+
+/* line 76, ../../sass/imports/categories.scss */
+.pubCov li, .priceCopy li {
+  color: #92927f;
+  padding-left: 15px;
+  background: url(//skin.livrenpoche.com/frontend/livrenpoche/default/images/arrowRed.gif) no-repeat left center;
+}
+
+/* line 82, ../../sass/imports/categories.scss */
+.pubCov, .priceCopy {
+  display: block;
+  width: 335px;
+  float: left;
+  list-style: none;
+  margin: 0 0 0 30px;
+  padding: 0;
+}
+
+/* line 91, ../../sass/imports/categories.scss */
+.post-title {
+  font-size: large;
+  color: #85b8fa;
+}
+
+/* line 96, ../../sass/imports/categories.scss */
+.centered {
+  text-align: center;
+}
+
+/* line 100, ../../sass/imports/categories.scss */
+.block {
+  display: block;
+  font-size: smaller;
+  font-weight: 900;
+}
+
+/* line 105, ../../sass/imports/categories.scss */
+.post-content {
+  border-top-style: solid;
+  border-top-width: 5px;
+  margin-left: 20px;
+  border-top-color: #e7e7f4;
+}
+
+/* line 111, ../../sass/imports/categories.scss */
+.marginalise {
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+
+/* line 115, ../../sass/imports/categories.scss */
+.viewable:hover {
+  background: #2989d2 !important;
+  color: #fff !important;
+}
+
+/* line 119, ../../sass/imports/categories.scss */
+.getbook {
+  background: #2f87d1;
+  color: white;
+}
+
+/* line 123, ../../sass/imports/categories.scss */
+h3.modtitle {
+  background: #FFF;
+  /* opacity: 0.6; */
+  border-radius: 0px;
+  position: relative;
+  z-index: 2;
+  font-size: 15px;
+  display: inline-block;
+  margin: 0 0 20px;
+  padding: 16px;
+  color: #000;
+}
+
+/* line 135, ../../sass/imports/categories.scss */
+.post-small-title {
+  font-size: 13px;
+  color: #000;
+}
+
+/* line 139, ../../sass/imports/categories.scss */
+.separatordiv:before {
+  content: "";
+  position: absolute;
+  margin-top: 20px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #bfbfbf;
+  z-index: 1;
+}
+
+/* line 149, ../../sass/imports/categories.scss */
+h3.modtitle:before {
+  content: "";
+  width: 30px;
+  height: 14px;
+  display: inline-block;
+  background: url(http://localhost/lab.antic.cm/templates/sj_wavenew/images/icon/icon-set.png) no-repeat center;
+}
+
+/* line 156, ../../sass/imports/categories.scss */
+h3.modtitle:after {
+  content: "";
+  width: 30px;
+  height: 14px;
+  display: inline-block;
+  background: url(http://localhost/lab.antic.cm/templates/sj_wavenew/images/icon/icon-set.png) no-repeat center;
+}
+
+/* line 163, ../../sass/imports/categories.scss */
+.large {
+  font-size: x-large;
+}
+
+/* line 166, ../../sass/imports/categories.scss */
+#categories {
+  border-radius: 0px;
+  /*    border-width: thick;
+      border-color: rgba(22, 18, 148, 0.1);*/
+  /*    max-width: 15rem;
+      min-width: 15rem;*/
+  width: 100%;
+}
+/* line 176, ../../sass/imports/categories.scss */
+#categories .entete {
+  text-align: center;
+  padding: 1em 0 0 0;
+  color: #0141a1;
+}
+/* line 181, ../../sass/imports/categories.scss */
+#categories .plus {
+  font-size: 0.7em;
+  cursor: pointer;
+}
+/* line 186, ../../sass/imports/categories.scss */
+#categories .minus {
+  font-size: 0.7em;
+  cursor: pointer;
+}
+/* line 190, ../../sass/imports/categories.scss */
+#categories a.item {
+  margin: 0 1.5em;
+  display: none;
+}
+
+/* line 197, ../../sass/imports/categories.scss */
+.text-heading--emphasized {
+  color: #fff;
+}
+
+/* line 201, ../../sass/imports/categories.scss */
+.text-body--significant, .responsive-table th a, .text-significant, .heading-secondary-responsive {
+  font-weight: 600;
+}
+
+/* line 205, ../../sass/imports/categories.scss */
+.text-large {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+/* line 210, ../../sass/imports/categories.scss */
+.category-card .category-card__text-wrapper {
+  position: absolute;
+  top: 50%;
+  margin-top: -17.5px;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform .35s;
+  -moz-transition: -moz-transform .35s;
+  transition: transform .35s;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 226, ../../sass/imports/categories.scss */
+.category-card:hover .category-card__desc, .category-card:focus .category-card__desc, .category-card:active .category-card__desc {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* line 235, ../../sass/imports/categories.scss */
+.category-card .category-card__desc {
+  opacity: 0;
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: opacity .7s,-webkit-transform .35s;
+  -moz-transition: opacity .7s,-webkit-transform .35s;
+  transition: opacity .7s,-webkit-transform .35s;
+}
+
+/* line 251, ../../sass/imports/categories.scss */
+.category-card {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+/* line 257, ../../sass/imports/categories.scss */
+.category-card .category-card__wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 262, ../../sass/imports/categories.scss */
+.category-card .category-card__tint {
+  height: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000);
+}
+
+/* line 269, ../../sass/imports/categories.scss */
+.category-card .category-card__image {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform .35s;
+  -moz-transition: -moz-transform .35s;
+  transition: transform .35s;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 100%;
+  height: 220px;
+  background-color: #EFF2F5;
+}
+
+/* line 287, ../../sass/imports/categories.scss */
+.category-card.category-classes .category-card__image {
+  background-image: url(/images/home/categories/220/img_category_classes.jpg);
+}
+
+/* line 290, ../../sass/imports/categories.scss */
+.category-card:hover .category-card__text-wrapper, .category-card:focus .category-card__text-wrapper, .category-card:active .category-card__text-wrapper {
+  -webkit-transform: translate3d(0, -25%, 0);
+  -moz-transform: translate3d(0, -25%, 0);
+  -ms-transform: translate3d(0, -25%, 0);
+  -o-transform: translate3d(0, -25%, 0);
+  transform: translate3d(0, -25%, 0);
+}
+
+/* line 298, ../../sass/imports/categories.scss */
+.category-card:hover .category-card__image, .category-card:focus .category-card__image, .category-card:active .category-card__image {
+  -webkit-transform: scale(1.12);
+  -moz-transform: scale(1.12);
+  -ms-transform: scale(1.12);
+  -o-transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+/* line 307, ../../sass/imports/categories.scss */
+.category-card:focus .category-card__tint:after,
+.category-card:active .category-card__tint:after {
+  opacity: .4;
+  background-color: #282C35;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  border-radius: 3px;
+}
+
+/* line 320, ../../sass/imports/categories.scss */
+.category-card {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+/* line 325, ../../sass/imports/categories.scss */
+.category-card .category-card__wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 329, ../../sass/imports/categories.scss */
+.category-card .category-card__image {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform .35s;
+  -moz-transition: -moz-transform .35s;
+  transition: transform .35s;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 100%;
+  height: 220px;
+  background-color: #EFF2F5;
+}
+
+@media only screen and (max-width: 479px) {
+  /* line 347, ../../sass/imports/categories.scss */
+  .category-card .category-card__image {
+    height: 150px;
+  }
+}
+/* line 351, ../../sass/imports/categories.scss */
+.category-card .category-card__text-wrapper {
+  position: absolute;
+  top: 50%;
+  margin-top: -17.5px;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform .35s;
+  -moz-transition: -moz-transform .35s;
+  transition: transform .35s;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 366, ../../sass/imports/categories.scss */
+.category-card .category-card__tint {
+  height: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000);
+}
+
+/* line 372, ../../sass/imports/categories.scss */
+.category-card .category-card__desc {
+  opacity: 0;
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: opacity .7s, -webkit-transform .35s;
+  -moz-transition: opacity .7s, -webkit-transform .35s;
+  transition: opacity 0.7s, -webkit-transform 0.35s;
+}
+
+/* line 386, ../../sass/imports/categories.scss */
+.category-card:hover .category-card__image,
+.category-card:focus .category-card__image,
+.category-card:active .category-card__image {
+  -webkit-transform: scale(1.12);
+  -moz-transform: scale(1.12);
+  -ms-transform: scale(1.12);
+  -o-transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+/* line 395, ../../sass/imports/categories.scss */
+.category-card:hover .category-card__tint:after,
+.category-card:focus .category-card__tint:after,
+.category-card:active .category-card__tint:after {
+  opacity: .4;
+  background-color: #282C35;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  border-radius: 3px;
+}
+
+/* line 408, ../../sass/imports/categories.scss */
+.category-card:hover .category-card__text-wrapper,
+.category-card:focus .category-card__text-wrapper,
+.category-card:active .category-card__text-wrapper {
+  -webkit-transform: translate3d(0, -25%, 0);
+  -moz-transform: translate3d(0, -25%, 0);
+  -ms-transform: translate3d(0, -25%, 0);
+  -o-transform: translate3d(0, -25%, 0);
+  transform: translate3d(0, -25%, 0);
+}
+
+/* line 417, ../../sass/imports/categories.scss */
+.category-card:hover .category-card__desc,
+.category-card:focus .category-card__desc,
+.category-card:active .category-card__desc {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}

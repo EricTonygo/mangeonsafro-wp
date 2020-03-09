@@ -1,0 +1,57 @@
+@media only screen and (max-width: 850px) {
+  /* line 3, ../../sass/imports/second_menu.scss */
+  #second_menu.ui.menu {
+    display: none;
+  }
+
+  /* line 6, ../../sass/imports/second_menu.scss */
+  #nav_menu.ui.menu {
+    display: none;
+  }
+
+  /* line 9, ../../sass/imports/second_menu.scss */
+  #my_mobile_menu.ui.menu {
+    display: flex !important;
+  }
+}
+/* line 13, ../../sass/imports/second_menu.scss */
+#second_menu.ui.menu {
+  margin-top: 0;
+  padding: 0.5em 0;
+  margin-bottom: 0;
+  border-radius: 0;
+  border-top-color: #85b8fa;
+}
+/* line 19, ../../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container {
+  width: 100%;
+  margin-left: 2em !important;
+  margin-right: 2em !important;
+}
+/* line 25, ../../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container .left.menu .site_title {
+  font-weight: bold;
+  font-size: 12pt;
+  color: #232f3e;
+  margin-left: 0.5em;
+}
+/* line 32, ../../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container .left.menu .logo:hover {
+  background-color: #FFF;
+}
+/* line 35, ../../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container .left.menu .logo:focus {
+  background-color: #FFF;
+}
+/* line 41, ../../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container .left.menu .item .ui.icon.input input {
+  border-radius: 0;
+}
+/* line 47, ../../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container .center.menu {
+  padding-top: 0.4em;
+}
+/* line 54, ../../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container .right.menu .item .ui.button {
+  border-radius: 0;
+}

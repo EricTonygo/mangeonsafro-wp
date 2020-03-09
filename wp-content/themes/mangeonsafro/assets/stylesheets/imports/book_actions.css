@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2017, 9:12:16 PM
+    Author     : BookShare
+*/
+/* line 10, ../../sass/imports/book_actions.scss */
+.modal__heading {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #282C35;
+  text-rendering: optimizelegibility;
+}
+
+/* line 21, ../../sass/imports/book_actions.scss */
+.ui.modal {
+  text-align: center;
+}
+
+/* line 25, ../../sass/imports/book_actions.scss */
+h1.modal__heading {
+  margin-top: 23px;
+  margin-bottom: 0px;
+}
+
+/* line 30, ../../sass/imports/book_actions.scss */
+.hide {
+  display: none;
+}
+
+/* line 34, ../../sass/imports/book_actions.scss */
+.text-body-small, .modal p {
+  font-size: 16px;
+}
+
+/* line 38, ../../sass/imports/book_actions.scss */
+.message-status {
+  background: #85b8fa;
+  position: absolute;
+  bottom: 0px;
+  height: 43px;
+  width: 100%;
+  padding-top: 10px;
+  color: #fff;
+  padding-left: 8px;
+}
+
+/* line 49, ../../sass/imports/book_actions.scss */
+.share_input {
+  width: 100%;
+  margin-top: 10px;
+}

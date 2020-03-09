@@ -1,0 +1,24 @@
+.new_publication_card.ui.fluid.card{
+    border-radius: 0!important;
+    .content{
+        .header{
+            text-transform: uppercase;
+            font-weight: normal;
+            font-size: 12pt;
+        }
+        .header.dividing{
+            font-size: 10.5pt;
+        }
+    }
+    .content{
+        .new_publication_form_card.ui.fluid.card{
+           box-shadow: none;
+        }
+    }
+}
+
+.ui.form{
+    input, textarea, .selection.dropdown{
+       border-radius: 0px!important; 
+    }
+}

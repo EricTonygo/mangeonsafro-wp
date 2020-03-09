@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'Benton Sans';
+  src: url("../fonts/bentonsans-regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@media only screen and (max-width: 850px) {
+  /* line 13, ../../sass/imports/commons_styles.scss */
+  .ui.float_button.button {
+    bottom: 45px !important;
+    right: 10px !important;
+  }
+}
+/* line 19, ../../sass/imports/commons_styles.scss */
+.ui.card .content.extra .ui.dropdown .menu {
+  left: -55px;
+}
+
+/* line 24, ../../sass/imports/commons_styles.scss */
+body.pushable > .pusher {
+  /*color: #555;
+      font-size: 12px;
+      line-height: 22px;
+      font-family: "Benton Sans",Helvetica,Arial,sans-serif; */
+  background: #f5f5ea url(../images/BledShare_Background.gif) no-repeat center top fixed;
+}
+
+/* line 33, ../../sass/imports/commons_styles.scss */
+canvas#cv {
+  display: none;
+}
+
+/* line 36, ../../sass/imports/commons_styles.scss */
+.ui.message {
+  border-radius: 0;
+}
+/* line 39, ../../sass/imports/commons_styles.scss */
+.ui.message .content .header {
+  text-transform: none !important;
+}
+
+/* line 45, ../../sass/imports/commons_styles.scss */
+.ui.segment {
+  border-radius: 0px;
+}
+
+/* line 49, ../../sass/imports/commons_styles.scss */
+.ui.button {
+  border-radius: 0px;
+}
+/* line 51, ../../sass/imports/commons_styles.scss */
+.ui.button:hover {
+  box-shadow: 0 1px 1px 0 #D4D4D5, 0 0 1px 0px transparent;
+}
+
+/* line 56, ../../sass/imports/commons_styles.scss */
+.ui.primary.button, .ui.blue.button {
+  background-color: #85b8fa;
+  color: white;
+}
+/* line 59, ../../sass/imports/commons_styles.scss */
+.ui.primary.button:hover, .ui.blue.button:hover {
+  background-color: #85b8fa;
+  color: white;
+}
+/* line 63, ../../sass/imports/commons_styles.scss */
+.ui.primary.button:focus, .ui.blue.button:focus {
+  background-color: #85b8fa;
+  color: white;
+}
+
+/* line 69, ../../sass/imports/commons_styles.scss */
+.ui.primary.basic.button, .ui.blue.basic.button {
+  border-color: #85b8fa;
+  color: #85b8fa !important;
+}
+/* line 72, ../../sass/imports/commons_styles.scss */
+.ui.primary.basic.button:hover, .ui.blue.basic.button:hover {
+  border-color: #85b8fa;
+  color: #85b8fa !important;
+}
+/* line 76, ../../sass/imports/commons_styles.scss */
+.ui.primary.basic.button:focus, .ui.blue.basic.button:focus {
+  border-color: #85b8fa;
+  color: #85b8fa !important;
+}
+
+/* line 82, ../../sass/imports/commons_styles.scss */
+.ui.green.button {
+  background-color: #59d49f;
+  color: white;
+}
+/* line 85, ../../sass/imports/commons_styles.scss */
+.ui.green.button:hover {
+  background-color: #59d49f;
+  color: white;
+}
+/* line 89, ../../sass/imports/commons_styles.scss */
+.ui.green.button:focus {
+  background-color: #59d49f;
+  color: white;
+}
+
+/* line 95, ../../sass/imports/commons_styles.scss */
+.ui.whatsapp.green.button {
+  background-color: #00e676;
+  color: white;
+}
+/* line 98, ../../sass/imports/commons_styles.scss */
+.ui.whatsapp.green.button:hover {
+  background-color: #00e676;
+  color: white;
+}
+/* line 102, ../../sass/imports/commons_styles.scss */
+.ui.whatsapp.green.button:focus {
+  background-color: #00e676;
+  color: white;
+}
+
+/* line 109, ../../sass/imports/commons_styles.scss */
+.ui.yellow.button {
+  background-color: #fdbb00;
+  color: white;
+}
+/* line 112, ../../sass/imports/commons_styles.scss */
+.ui.yellow.button:hover {
+  background-color: #fdbb00;
+  color: white;
+}
+/* line 116, ../../sass/imports/commons_styles.scss */
+.ui.yellow.button:focus {
+  background-color: #fdbb00;
+  color: white;
+}
+
+/* line 122, ../../sass/imports/commons_styles.scss */
+.ui.red.button {
+  background-color: #ec2b55;
+  color: white;
+}
+/* line 125, ../../sass/imports/commons_styles.scss */
+.ui.red.button:hover {
+  background-color: #ec2b55;
+  color: white;
+}
+/* line 129, ../../sass/imports/commons_styles.scss */
+.ui.red.button:focus {
+  background-color: #ec2b55;
+  color: white;
+}
+
+/* line 135, ../../sass/imports/commons_styles.scss */
+.ui.orange.ribbon.label {
+  background-color: #fdbb00 !important;
+  border-color: #fdbb00 !important;
+  color: white;
+}
+/* line 139, ../../sass/imports/commons_styles.scss */
+.ui.orange.ribbon.label:hover {
+  background-color: #fdbb00 !important;
+  border-color: #fdbb00 !important;
+  color: white;
+}
+/* line 144, ../../sass/imports/commons_styles.scss */
+.ui.orange.ribbon.label:focus {
+  background-color: #fdbb00 !important;
+  border-color: #fdbb00 !important;
+  color: white;
+}
+
+/* line 151, ../../sass/imports/commons_styles.scss */
+a {
+  color: #85b8fa;
+}
+
+/* line 155, ../../sass/imports/commons_styles.scss */
+.chcolor1 {
+  color: #85b8fa !important;
+}
+
+/* line 159, ../../sass/imports/commons_styles.scss */
+.ui.table {
+  border-radius: 0px;
+}
+
+/* line 164, ../../sass/imports/commons_styles.scss */
+.ui.float_button.button {
+  bottom: 60px;
+  cursor: pointer;
+  position: fixed;
+  right: 22px;
+  z-index: 2;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), 0px 0px 1px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.25), inset 0px -1px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* line 173, ../../sass/imports/commons_styles.scss */
+.ui.comments {
+  max-width: none;
+  max-height: 450px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* line 181, ../../sass/imports/commons_styles.scss */
+.ui.tabular.menu .item {
+  background-color: #eaeaea;
+  border-radius: 0px !important;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-color: #D4D4D5;
+}
+/* line 189, ../../sass/imports/commons_styles.scss */
+.ui.tabular.menu .active.item {
+  border-radius: 0px !important;
+}
+
+/* line 194, ../../sass/imports/commons_styles.scss */
+.ui.comments .reply.form textarea {
+  height: auto;
+}
+
+/* line 198, ../../sass/imports/commons_styles.scss */
+.ui.form .field > label {
+  font-size: 14px;
+}

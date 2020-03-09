@@ -1,0 +1,1344 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "flag_code"
+msgstr "fr"
+
+msgid "Lang_title"
+msgstr "Français"
+
+msgid "English"
+msgstr "Anglais"
+
+msgid "French"
+msgstr "Français"
+
+msgid "Alerts"
+msgstr "Alertes"
+
+msgid "Books"
+msgstr "Livres"
+
+msgid "My Alerts"
+msgstr "Mes alertes"
+
+msgid "My Books"
+msgstr "Mes livres"
+
+msgid "Sign in"
+msgstr "Se connecter"
+
+msgid "Sign up"
+msgstr "S'inscrire"
+
+msgid "Login"
+msgstr "Connexion"
+
+msgid "Register"
+msgstr "S'inscrire"
+
+msgid "REGISTER"
+msgstr "S'INSCRIRE"
+
+msgid "Log out"
+msgstr "Se déconnecter"
+
+msgid "Publish a book"
+msgstr "Publier un livre"
+
+msgid "Publish an alert"
+msgstr "Publier une alerte"
+
+msgid "Publish your book"
+msgstr "Publier votre livre"
+
+msgid "About us"
+msgstr "A propos"
+
+msgid "How it works"
+msgstr "Comment ça marche"
+
+msgid "Account"
+msgstr "Compte"
+
+msgid "Help"
+msgstr "Aide"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "My Profile"
+msgstr "Mon profil"
+
+msgid "Reading suggestions"
+msgstr "Suggestions de lecture"
+
+msgid "In the same category"
+msgstr "Dans la même catégorie"
+
+msgid "Backups"
+msgstr "Sauvegardes"
+
+msgid "My Backups"
+msgstr "Mes sauvegardes"
+
+msgid "Do you already have an account"
+msgstr "Vous avez déjà un compte"
+
+msgid "Do not already have an account"
+msgstr "Vous n'avez pas encore un compte"
+
+msgid "Find, exchange, sell easily your books on BledShare"
+msgstr "Trouvez, échangez, vendez facilement vos livres sur BledShare"
+
+msgid "Search keywords"
+msgstr "Mots clés de recherche"
+
+msgid "Publication type"
+msgstr "Type publication"
+
+msgid "Category"
+msgstr "Catégorie"
+
+msgid "Categories"
+msgstr "Catégories"
+
+msgid "State"
+msgstr "Etat"
+
+msgid "States"
+msgstr "Etats"
+
+msgid "Subject"
+msgstr "Matière"
+
+msgid "Subjects"
+msgstr "Matières"
+
+msgid "Filter"
+msgstr "Filtrer"
+
+msgid "on"
+msgstr "en"
+
+msgid "On"
+msgstr "En"
+
+msgid "ago by"
+msgstr "par"
+
+msgid "Ago_fr"
+msgstr "Il y a"
+
+msgid "Posted by"
+msgstr "Publié par"
+
+msgid "Book price"
+msgstr "Prix du livre"
+
+msgid "Rental period"
+msgstr "Période de location"
+
+msgid "Book title"
+msgstr "Titre du livre"
+
+msgid "Search"
+msgstr "Rechercher"
+
+msgid "Alert search results"
+msgstr "Resultats de la recherche d'alertes"
+
+msgid "Book search results"
+msgstr "Resultats de la recherche de livres"
+
+msgid "Latest published books"
+msgstr "Derniers livres publiés"
+
+msgid "Latest book searches"
+msgstr "Dernières recherches de livre"
+
+msgid "Browse by featured categories"
+msgstr "Rechercher par categories en vedette"
+
+msgid "See more books"
+msgstr "Voir plus de livres"
+
+msgid "See more alerts"
+msgstr "Voir plus d'alertes"
+
+msgid "how-it-works"
+msgstr "comment-ca-marche"
+
+msgid "account"
+msgstr "compte"
+
+msgid "help"
+msgstr "aide"
+
+msgid "alerts"
+msgstr "alertes"
+
+msgid "books"
+msgstr "livres"
+
+msgid "login"
+msgstr "connexion"
+
+msgid "register"
+msgstr "sinscrire"
+
+msgid "textbooks"
+msgstr "manuels-scolaires"
+
+msgid "terms-of-use"
+msgstr "conditions-dutilisation"
+
+msgid "privacy-policy"
+msgstr "politique-de-confidentialite"
+
+msgid "about-us"
+msgstr "a-propos"
+
+msgid "profile"
+msgstr "profil"
+
+msgid "backups"
+msgstr "sauvegardes"
+
+msgid "reading-suggestions"
+msgstr "suggestions-lecture"
+
+msgid "forgot-password"
+msgstr "mot-de-passe-oublie"
+
+msgid "reset-password"
+msgstr "modifier-mot-de-passe"
+
+msgid "All rights reserved"
+msgstr "Tous droits reservés"
+
+msgid "publish"
+msgstr "publier"
+
+msgid "Terms of use"
+msgstr "Conditions d'utilisation"
+
+msgid "Privacy policy"
+msgstr "Politique de confidentialité"
+
+msgid "My account"
+msgstr "Mon compte"
+
+msgid "My backups"
+msgstr "Mes sauvegardes"
+
+msgid "Books in barter"
+msgstr "Livres en troc"
+
+msgid "Books in renting"
+msgstr "Livres en location"
+
+msgid "New books"
+msgstr "Livres neufs"
+
+msgid "Used books"
+msgstr "Livres d'occasion"
+
+msgid "Find a book"
+msgstr "Rechercher un livre"
+
+msgid "Help and Services"
+msgstr "Aide et services"
+
+msgid "Follow us"
+msgstr "Retrouver nous"
+
+msgid "CLASSES"
+msgstr "CLASSES"
+
+msgid "Classes"
+msgstr "Classes"
+
+msgid "BOOK STATES"
+msgstr "ETATS DU LIVRE"
+
+msgid "Book states"
+msgstr "Etats du livre"
+
+msgid "SALE OPTIONS"
+msgstr "OPTIONS DE VENTE"
+
+msgid "Sale options"
+msgstr "Options de vente"
+
+msgid "Sale option"
+msgstr "Option de vente"
+
+msgid "All books"
+msgstr "Tous les livres"
+
+msgid "All alerts"
+msgstr "Toutes les alertes"
+
+msgid "You are here"
+msgstr "Vous êtes ici"
+
+msgid "New"
+msgstr "Neuf"
+
+msgid "Used"
+msgstr "Occasion"
+
+msgid "Sale"
+msgstr "Vente"
+
+msgid "Barter"
+msgstr "Troc"
+
+msgid "Renting"
+msgstr "Location"
+
+msgid "Don"
+msgstr "Don"
+
+msgid "ago"
+msgstr " "
+
+msgid "has validated"
+msgstr "a validé il y a"
+
+msgid "Share on"
+msgstr "Partager sur"
+
+msgid "Book Information"
+msgstr "Informations sur le livre"
+
+msgid "Rental Information"
+msgstr "Informations sur la location"
+
+msgid "Rental price"
+msgstr "Prix de location"
+
+msgid "Get book"
+msgstr "Obtenir le livre"
+
+msgid "Solve alert"
+msgstr "Résoudre l'alerte"
+
+msgid "Book Description"
+msgstr "Description du livre"
+
+msgid "Alert Description"
+msgstr "Description de l'alerte"
+
+msgid "Edit book"
+msgstr "Modifier le livre"
+
+msgid "Edit your book"
+msgstr "Modifier votre livre"
+
+msgid "Edit alert"
+msgstr "Modifier l'alerte"
+
+msgid "Edit your alert"
+msgstr "Modifier votre alerte"
+
+msgid "Your profile"
+msgstr "Votre profil"
+
+msgid "Sale Information"
+msgstr "Informations sur la vente"
+
+msgid "Barter Book Information"
+msgstr "Information sur le troc"
+
+msgid "Received Messages"
+msgstr "Messages reçus"
+
+msgid "Hide"
+msgstr "Masquer"
+
+msgid "Show"
+msgstr "Afficher"
+
+msgid "Sended Messages"
+msgstr "Messages envoyés"
+
+msgid "dictionnaries-and-languages"
+msgstr "dictionnaires-et-langues"
+
+msgid "religion-and-spirituality"
+msgstr "religion-et-spiritualite"
+
+msgid "literature"
+msgstr "litterature"
+
+msgid "politics"
+msgstr "politique"
+
+msgid "arts-and-culture"
+msgstr "arts-et-culture"
+
+msgid "nature-and-ecology"
+msgstr "nature-et-ecologie"
+
+msgid "Send message to"
+msgstr "Envoyer un message à"
+
+msgid "Send message"
+msgstr "Envoyer le message"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "See all his books"
+msgstr "Voir tous ses livres"
+
+msgid "See all his alerts"
+msgstr "Voir toutes ses alertes"
+
+msgid "You have any saved informations at this moment"
+msgstr "Vous n'avez aucune information sauvegardée jusqu'à ce moment"
+
+msgid "If you have a book corresponding to an alert in the list below, you can resolve it by contacting the announcer"
+msgstr "Si vous avez un livre correspondant à une alerte dans la liste ci-dessous, vous pouvez la résoudre en contactant l'annonceur"
+
+msgid "No alert is found for your request"
+msgstr "Aucune alerte n'a été trouvée pour votre requête"
+
+msgid "Title of the book"
+msgstr "Titre du livre"
+
+msgid "Book Title"
+msgstr "Titre du livre"
+
+msgid "Class of the book"
+msgstr "Classe du livre"
+
+msgid "Class"
+msgstr "Classe"
+
+msgid "Category of the book"
+msgstr "Catégorie du livre"
+
+msgid "Subject of the book"
+msgstr "Matière du livre"
+
+msgid "State of the book"
+msgstr "Etat du livre"
+
+msgid "Sale option of the book"
+msgstr "Option de vente du livre"
+
+msgid "Your localisation"
+msgstr "Votre localisation"
+
+msgid "Thumbnail image"
+msgstr "Image à la une"
+
+msgid "Enter a description of a book that you want"
+msgstr "Saisissez la description du livre que vous desirez"
+
+msgid "Add a description to this alert"
+msgstr "Ajouter une description à cette alerte"
+
+msgid "Add a description to this book"
+msgstr "Ajouter une description à ce livre"
+
+msgid "Hide description"
+msgstr "Masquer la description"
+
+msgid "Publish your alert"
+msgstr "Publier votre alerte"
+
+msgid "Publish alert"
+msgstr "Publier une alerte"
+
+msgid "Update your alert"
+msgstr "Modifier votre alerte"
+
+msgid "Update your book"
+msgstr "Modifier votre livre"
+
+msgid "Price"
+msgstr "Prix"
+
+msgid "Page not found"
+msgstr "Page introuvable"
+
+msgid "Rental period of the book"
+msgstr "Période de location du livre"
+
+msgid "Localisation of the book"
+msgstr "Localisation du livre"
+
+msgid "Forgot Your Password"
+msgstr "Mot de passe oublié"
+
+msgid "Forgot your password"
+msgstr "Mot de passe oublié"
+
+msgid "Enter your e-mail"
+msgstr "Saisissez votre e-mail"
+
+msgid "Send reset link"
+msgstr "Envoyer lien de modification"
+
+msgid "LOGIN"
+msgstr "CONNEXION"
+
+msgid "Username or e-mail"
+msgstr "Nom d'utilisateur ou e-mail"
+
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Confirm password"
+msgstr "Confirmer le mot de passe"
+
+msgid "Current Password"
+msgstr "Mot de passe actuel"
+
+msgid "New Password"
+msgstr "Nouveau mot de passe"
+
+msgid "Confirm New Password"
+msgstr "Confirmer nouveau mot de passe"
+
+msgid "Remember me"
+msgstr "Se souvenir de moi"
+
+msgid "First name"
+msgstr "Prénom"
+
+msgid "Last name"
+msgstr "Nom"
+
+msgid "Display name"
+msgstr "Nom public"
+
+msgid "Phone number"
+msgstr "Numero de téléphone"
+
+msgid "Country code"
+msgstr "Indicatif du pays"
+
+msgid "E-mail confirmation"
+msgstr "Confirmation e-mail"
+
+msgid "Hobbies"
+msgstr "Centres d'intérêt"
+
+msgid "Save Modifications"
+msgstr "Enregistrer les modifications"
+
+msgid "Modify your password"
+msgstr "Modifier votre mot de passe"
+
+msgid "We use your hobbies to give you a rigth reading suggestions"
+msgstr "Nous utilisons vos centres d'intérêt pour vous faire des vraies suggestions de lecture"
+
+msgid "We don't have a reading suggestions for you at the moment. If you haven't specified yet your hobbies in your profile, please do it first"
+msgstr "Nous n'avons pas de suggestions de lecture pour vous à ce moment. Si vous n'avez pas spécifier vos centres d'intérêt dans votre profil, faites le d'abord s'il vous plaît"
+
+msgid "If your are not interested by any book in the list below"
+msgstr "Si aucun livre dans la liste ci-dessous ne vous interesse"
+
+msgid "you can"
+msgstr "vous pouvez"
+
+msgid "publish an alert here"
+msgstr "publier une alerte ici"
+
+msgid "No book is found for your request"
+msgstr "Aucun livre n'a été trouvé pour votre requête"
+
+msgid "If you want to be notify while a new book that can interest you will be publish"
+msgstr "Si vous voulez être notifié lorsqu'un livre pouvant vous intéresser sera publié"
+
+msgid "All Categories"
+msgstr "Toutes les catégories"
+
+msgid "Reset"
+msgstr "Modifier"
+
+msgid "Reset Your Password"
+msgstr "Modifier votre mot de passe"
+
+msgid "Your name"
+msgstr "Votre nom"
+
+msgid "Your e-mail"
+msgstr "Votre e-mail"
+
+msgid "Your phone number"
+msgstr "Votre numero de téléphone"
+
+msgid "Your message"
+msgstr "Votre message"
+
+msgid "secondary"
+msgstr "secondaire"
+
+msgid "primary"
+msgstr "primaire"
+
+msgid "Log in to publish your book"
+msgstr "Connectez vous pour publier votre livre"
+
+msgid "Log in to publish your alert"
+msgstr "Connectez vous pour publier votre alerte"
+
+msgid "Latest News"
+msgstr "Dernières Actualités"
+
+msgid "Textbooks, Literature, Novels, Poetry, History, Politics ... Find New and Used Books! Save money on your Resuming of school year and enjoy new reading experiences all year long through bartering, renting or reselling your books on the internet with BledShare."
+msgstr "Manuels scolaires, Littérature, Romans, Poésie, Histoire, Politique... Trouvez des livres neufs et d'occasion ! Faites des économies sur vos rentrées scolaires et vivez de nouvelles expériences de lecture toute l'année grâce au troc, à la location ou à la revente de vos livres sur internet avec BledShare."
+
+msgid "No books available can satisfy your request"
+msgstr "Aucun de livres disponibles ne peut satisfaire à votre demande"
+
+msgid "featured"
+msgstr "vedette"
+
+msgid "Featured books"
+msgstr "Livres en vedette"
+
+msgid "Find, exchange, sell, rent and donate books"
+msgstr "Trouvez, échangez, vendez, louez et faites un don de livres"
+
+msgid "Views"
+msgstr "Vues"
+
+msgid "View"
+msgstr "Voir"
+
+msgid "Bookmark this book to see it later"
+msgstr "Marquer ce livre pour le voir plus tard"
+
+msgid "Bookmark this alert to see it later"
+msgstr "Marquer cette alerte pour le voir plus tard"
+
+msgid "Remove bookmark on this alert"
+msgstr "Supprimer la marque sur cette alerte"
+
+msgid "Remove bookmark on this book"
+msgstr "Supprimer la marque sur ce livre"
+
+msgid "See more featured books"
+msgstr "Voir plus de livres en vedette"
+
+msgid "See more featured alerts"
+msgstr "Voir plus d'alertes en vedette"
+
+msgid "Some advices"
+msgstr "Quelques conseils"
+
+msgid "Comments"
+msgstr "Commentaires"
+
+msgid "You must logged in to comment on this post"
+msgstr "Vous devez être connecté pour commenter cette publication"
+
+msgid "Log in here"
+msgstr "Connectez-vous ici"
+
+msgid "Your comment"
+msgstr "Votre commentaire"
+
+msgid "Your reply"
+msgstr "Votre réponse"
+
+msgid "Live a comment"
+msgstr "Laisser un commentaire"
+
+msgid "Share this alert"
+msgstr "Partager cette alerte"
+
+msgid "Share this book"
+msgstr "Partager ce livre"
+
+msgid "This will be your username. You can add the name of your organization or your public name later"
+msgstr "Ce sera votre nom d'utilisateur. Vous pouvez ajouter le nom de votre organisation ou votre nom public plus tard"
+
+msgid "We'll occasionally send updates about your account to this inbox. We'll never share your email address with anyone"
+msgstr "Nous envoyons occasionnellement des mises à jour concernant votre compte dans cette boîte de réception. Nous ne partagerons jamais votre adresse e-mail avec qui que ce soit"
+
+msgid "Use at least one lowercase letter, one numeral, and seven characters"
+msgstr "Utilisez au moins une lettre minuscule, un chiffre et sept caractères"
+
+msgid "customer-zone"
+msgstr "espace-client"
+
+msgid "Customer zone"
+msgstr "Espace client"
+
+msgid "Checkout"
+msgstr "Commander"
+
+msgid "Cart"
+msgstr "Panier"
+
+msgid "Address"
+msgstr "Adresses"
+
+msgid "Daily offers and discounts"
+msgstr "Offres et réductions quotidiennes"
+
+msgid "Stay informed about new offers and daily discounts"
+msgstr "Restez informés sur de nouvelles offres et les réductions quotidiennes"
+
+msgid "Website promoting African culinary diversities"
+msgstr "Site de promotion des diversités culinaires africaines"
+
+msgid "Your Email Address"
+msgstr "Votre adresse email"
+
+msgid "contact-us"
+msgstr "contact"
+
+msgid "our-products"
+msgstr "nos-produits"
+
+msgid "Our products"
+msgstr "Nos produits"
+
+msgid "Our categories"
+msgstr "Nos catégories"
+
+msgid "our-categories"
+msgstr "nos-categories"
+
+msgid "single-address"
+msgstr "adresse"
+
+msgid "checkout"
+msgstr "commander"
+
+msgid "Single Address"
+msgstr "Adresse"
+
+msgid "Delivery"
+msgstr "Livraison"
+
+msgid "delivery"
+msgstr "livraison"
+
+msgid "payment"
+msgstr "paiement"
+
+msgid "Payment"
+msgstr "Paiement"
+
+msgid "review"
+msgstr "avi"
+
+msgid "Review"
+msgstr "Avi"
+
+msgid "Confirmation"
+msgstr "Confirmation"
+
+msgid "confirmation"
+msgstr "confirmation"
+
+msgid "New account"
+msgstr "Nouveau compte"
+
+msgid "We could not verify your recaptcha security code. Check it and try again"
+msgstr "Nous n'avons pas pu vérifier votre code de sécurité du recaptcha. Cochez le puis essayez à nouveau"
+
+msgid "multiple-address"
+msgstr "adresses"
+
+msgid "orders"
+msgstr "commandes"
+
+msgid "Orders"
+msgstr "Commandes"
+
+msgid "Sign out"
+msgstr "Déconnexion"
+
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgid "restaurant-en"
+msgstr "restaurant-fr"
+
+msgid "Catering"
+msgstr "Traiteur"
+
+msgid "catering"
+msgstr "traiteur"
+
+msgid "Homemade"
+msgstr "Faits maison"
+
+msgid "homemade"
+msgstr "fait-maison"
+
+msgid "Grocery store"
+msgstr "Epicerie"
+
+msgid "grocery-store"
+msgstr "epicerie"
+
+msgid "List all"
+msgstr "Afficher tout"
+
+msgid "activate-account"
+msgstr "activer-compte"
+
+msgid "Shops"
+msgstr "Boutiques"
+
+msgid "shops"
+msgstr "boutiques"
+
+msgid "Shop"
+msgstr "Boutique"
+
+msgid "shop"
+msgstr "boutique"
+
+msgid "Our shops"
+msgstr "Nos boutiques"
+
+msgid "My space"
+msgstr "Mon espace"
+
+msgid "Company"
+msgstr "Compagnie"
+
+msgid "My address"
+msgstr "Mes adresses"
+
+msgid "My orders"
+msgstr "Mes commandes"
+
+msgid "My cart"
+msgstr "Mon panier"
+
+msgid "cart"
+msgstr "panier"
+
+msgid "Unknow user"
+msgstr "Utilisateur inconnu"
+
+msgid "Incorrect password"
+msgstr "Mot de passe incorrect"
+
+msgid "Your account is not activated. Check your e-mail inbox and click on activation link"
+msgstr "Votre compte n'est pas activé. Vérifiez votre boîte de réception et cliquez sur le lien d'activation"
+
+msgid "Enter your username or e-mail and password"
+msgstr "Saisissez votre nom d'utilisateur ou e-mail et mot de passe"
+
+msgid "Enter your username or e-mail"
+msgstr "Saisissez votre nom d'utilisateur ou votre email"
+
+msgid "Enter your password"
+msgstr "Saisissez votre mot de passe"
+
+msgid "A user with this username already exists"
+msgstr "Un utilisateur avec ce nom d'utilisateur existe déjà"
+
+msgid "A user with this email already exists"
+msgstr "Un utilisateur avec cet email existe déjà"
+
+msgid "Your account has been successfully created. An activation link has been sent by email to your account email"
+msgstr "Votre compte a été créé avec succès. Un lien d'activation a été envoyé par e-mail à l'e-mail de votre compte"
+
+msgid "An error occurred while creating your account"
+msgstr "Une erreur est survenue lors de la création de votre compte"
+
+msgid "Some form data is missing. Check it and try again"
+msgstr "Certaines données de formulaire sont manquantes. Vérifiez puis essayez à nouveau"
+
+msgid "Your profile has been updated successfully"
+msgstr "Votre profil a été mis à jour avec succés"
+
+msgid "An error occurred while updating your profile"
+msgstr "Une erreur s'est produite lors de la mise à jour de votre profil"
+
+msgid "You must be logged in to see a your profile"
+msgstr "Vous devez être connecté pour voir votre profil"
+
+msgid "Already customer"
+msgstr "Déjà client"
+
+msgid "Sign into your account"
+msgstr "Connectez-vous à votre compte"
+
+msgid "Not registered"
+msgstr "Pas encore inscrit"
+
+msgid "A few minutes are enough"
+msgstr "Quelques minutes suffisent"
+
+msgid "Problem"
+msgstr "Problème"
+
+msgid "Question"
+msgstr "Question"
+
+msgid "Customer service listens"
+msgstr "Le service client écoute"
+
+msgid "Account Type"
+msgstr "Type de compte"
+
+msgid "Particular"
+msgstr "Particulier"
+
+msgid "Professional"
+msgstr "Professionnel"
+
+msgid "seller-zone"
+msgstr "espace-vendeur"
+
+msgid "Seller zone"
+msgstr "Espace vendeur"
+
+msgid "Your seller zone"
+msgstr "Votre espace vendeur"
+
+msgid "Add new product"
+msgstr "Nouveau produit"
+
+msgid "Create new shop"
+msgstr "Nouvelle boutique"
+
+msgid "My Shops"
+msgstr "Mes boutiques"
+
+msgid "My products"
+msgstr "Mes produits"
+
+msgid "new-shop"
+msgstr "nouvelle"
+
+msgid "Save updates"
+msgstr "Sauvegarder modifications"
+
+msgid "Shop name"
+msgstr "Nom boutique"
+
+msgid "Shop city"
+msgstr "Ville boutique"
+
+msgid "Shop description"
+msgstr "Description boutique"
+
+msgid "Shop's details"
+msgstr "Détails de la boutique"
+
+msgid "Edit this shop"
+msgstr "Modifier"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "City"
+msgstr "Ville"
+
+msgid "Country"
+msgstr "Pays"
+
+msgid "Your shop has been put offline successfully"
+msgstr "Votre boutique a été mise hors ligne avec succès"
+
+msgid "Your shop has been put online successfully"
+msgstr "Votre boutique a été publiée avec succès"
+
+msgid "Your modifications have been saved successfully"
+msgstr "Vos modifications ont été sauvegardées avec succès"
+
+msgid "My shops"
+msgstr "Mes boutiques"
+
+msgid "You have any published shop at this moment"
+msgstr "Vous n'avez acune boutique publiée en ce moment"
+
+msgid "You have any published product at this moment"
+msgstr "Vous n'avez acun produit publié en ce moment"
+
+msgid "See more shops"
+msgstr "Voir plus de boutiques"
+
+msgid "See more products"
+msgstr "Voir plus de produits"
+
+msgid "My profile"
+msgstr "Mon profil"
+
+msgid "products"
+msgstr "produits"
+
+msgid "new-product"
+msgstr "nouveau"
+
+msgid "Shop category"
+msgstr "Categorie boutique"
+
+msgid "We have not registered any products in this category yet"
+msgstr "Nous n'avons enregistré aucun produit dans cette catégorie pour le moment"
+
+msgid "Showing"
+msgstr "Montrer"
+
+msgid "All"
+msgstr "Tous"
+
+msgid "Default"
+msgstr "Défaut"
+
+msgid "Newest first"
+msgstr "Plus recent"
+
+msgid "Popularity"
+msgstr "Popularité"
+
+msgid "Rating"
+msgstr "Evaluation"
+
+msgid "Sort by"
+msgstr "Trier par"
+
+msgid "of"
+msgstr "de"
+
+msgid "New shop"
+msgstr "Nouvelle boutique"
+
+msgid "From"
+msgstr "De"
+
+msgid "To"
+msgstr "A"
+
+msgid "Save shop"
+msgstr "Enregistrer boutique"
+
+msgid "Edit shop"
+msgstr "Modifier boutique"
+
+msgid "New product"
+msgstr "Nouveau produit"
+
+msgid "Edit product"
+msgstr "Modifier produit"
+
+msgid "Save product"
+msgstr "Enregistrer produit"
+
+msgid "Reset your password"
+msgstr "Changer votre mot de passe"
+
+msgid "Reset password"
+msgstr "Changer mot de passe"
+
+msgid "Personal informations"
+msgstr "Informations personnelles"
+
+msgid "Save modifications"
+msgstr "Enregistrer modifications"
+
+msgid "Change it here"
+msgstr "Modifier le ici"
+
+msgid "Products of"
+msgstr "Produits de"
+
+msgid "review-checkout"
+msgstr "resume"
+
+msgid "Welcome"
+msgstr "Bienvenu"
+
+msgid "Shop type"
+msgstr "Type de commerce"
+
+msgid "Select shop type"
+msgstr "Selectionner type de commerce"
+
+msgid "Shop's currency"
+msgstr "Dévise de la boutique"
+
+msgid "Shop currency"
+msgstr "Dévise boutique"
+
+msgid "Stree number"
+msgstr "Numéro rue"
+
+msgid "Stree name"
+msgstr "Nom rue"
+
+msgid "Postal code"
+msgstr "Code postal"
+
+msgid "Supplement address"
+msgstr "Adresse supplementaire"
+
+msgid "Product name"
+msgstr "Nom produit"
+
+msgid "Product price"
+msgstr "Prix produit"
+
+msgid "Product delete price"
+msgstr "Prix barré"
+
+msgid "Currency"
+msgstr "Dévise"
+
+msgid "Select a currency"
+msgstr "Selectionner une dévise"
+
+msgid "Product city"
+msgstr "Ville produit"
+
+msgid "Product's shop"
+msgstr "Boutique produit"
+
+msgid "Sub category"
+msgstr "Sous catégorie"
+
+msgid "Select a category"
+msgstr "Selectionner une catégorie"
+
+msgid "Select a sub category"
+msgstr "Selectionner une sous catégorie"
+
+msgid "Featured Image"
+msgstr "Image à la une"
+
+msgid "Product brief description"
+msgstr "Brève description produit"
+
+msgid "Product integral description"
+msgstr "Description intégrale produit"
+
+msgid "Product additional informations"
+msgstr "Informations additionnelles produit"
+
+msgid "Edit"
+msgstr "Modifier"
+
+msgid "Put offline"
+msgstr "Depublier"
+
+msgid "Put online"
+msgstr "Publier"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Manage"
+msgstr "Gérer"
+
+msgid "List products"
+msgstr "Afficher produits"
+
+msgid "Add new product in"
+msgstr "Ajouter produit dans"
+
+msgid "Shop management"
+msgstr "Gestion de la boutique"
+
+msgid "Item"
+msgstr "Article"
+
+msgid "Quantity"
+msgstr "Quantité"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "You have %d item(s) in your shopping cart"
+msgstr "Vous avez %d article(s) dans votre panier"
+
+msgid "Continue Shopping"
+msgstr "Continuer vos achats"
+
+msgid "Proceed to checkout"
+msgstr "Commander"
+
+msgid "Order Summary"
+msgstr "Recapitulatif commande"
+
+msgid "Shipping and additional costs are calculated based on values you have entered"
+msgstr "Les frais d'expédition et supplémentaires sont calculés en fonction des valeurs que vous avez saisies"
+
+msgid "Order Subtotal"
+msgstr "Sous-total commande"
+
+msgid "Shipping and handling"
+msgstr "Frais de livraison"
+
+msgid "Tax"
+msgstr "Taxes"
+
+msgid "Shopping cart"
+msgstr "Panier"
+
+msgid "Please fill in your address"
+msgstr "Renseignez vos adresses"
+
+msgid "Choose your delivery method"
+msgstr "Choisir méthode de livraison"
+
+msgid "Choose delivery method"
+msgstr "Choisir méthode livraison"
+
+msgid "Choose your payment method"
+msgstr "Choisir méthode de paiement"
+
+msgid "Choose payment method"
+msgstr "Choisir méthode paiement"
+
+msgid "Please review your order"
+msgstr "Verifiez votre commande"
+
+msgid "Delivery method"
+msgstr "Méthode livraison"
+
+msgid "Back"
+msgstr "Retour"
+
+msgid "Back to cart"
+msgstr "Retour au panier"
+
+msgid "Back to delivery method"
+msgstr "Retour méthode livraison"
+
+msgid "Back to payment method"
+msgstr "Retour méthode payment"
+
+msgid "Back to address"
+msgstr "Retour aux addresses"
+
+msgid "Payment method"
+msgstr "Méthode paiement"
+
+msgid "Order review"
+msgstr "Vérifier commande"
+
+msgid "Continue to order review"
+msgstr "Vérifier commande"
+
+msgid "Place an order"
+msgstr "Commander"
+
+msgid "Use a different shipping address"
+msgstr "Utiliser une autre adresse pour la livraison"
+
+msgid "Street"
+msgstr "Rue"
+
+msgid "Invoice address"
+msgstr "Adresse facturation"
+
+msgid "Shipping address"
+msgstr "Adresse livraison"
+
+msgid "Full name"
+msgstr "Nom complet"
+
+msgid "Credit card"
+msgstr "Carte de crédit"
+
+msgid "Name on card"
+msgstr "Nom sur la carte"
+
+msgid "Card number"
+msgstr "Numéro carte"
+
+msgid "Expiry date"
+msgstr "Date expiration"
+
+msgid "Pay with PayPal"
+msgstr "Payer avec PayPal"
+
+msgid "Pay on delivery"
+msgstr "Payer à la livraison"
+
+msgid "Order confirmed"
+msgstr "Commande confirmée"
+
+msgid "Thank you"
+msgstr "Merci"
+
+msgid "Your order is confirmed"
+msgstr "Votre commande est confirmée"
+
+msgid "Your order hasn't treated yet but we will send you an email when it does"
+msgstr "Votre commande n'a pas encore été traitée mais nous vous enverrons un e-mail lorsqu'elle le sera"
+
+msgid "View or manage your order"
+msgstr "Voir ou gérer vos commandes"
+
+msgid "Pro name"
+msgstr "Nom pro"
+
+msgid "Pro email"
+msgstr "Email pro"
+
+msgid "Pro phone number"
+msgstr "Numéro téléphone pro"
+
+msgid "Choose country"
+msgstr "Selectionner pays"
+
+msgid "What are you looking for"
+msgstr "Que cherchez-vous"
+
+msgid "Products"
+msgstr "Produits"
+
+msgid "Items number"
+msgstr "Nombre articles"
+
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+msgid "required"
+msgstr "requis"
+
+msgid "Additional informations"
+msgstr "Informations additionnelles"
+
+msgid "Notes and reviews"
+msgstr "Notes et avis"
+
+msgid "This shop have not yet registered any products in this category"
+msgstr "Cette boutique n'a pas encore enregistré de produits dans cette catégorie"
+
+msgid "We have not yet registered any products of this shop"
+msgstr "Nous n'avons pas encore enregistré de produits de cette boutique"
+
+msgid "We have not yet registered any products in this category"
+msgstr "Nous n'avons pas encore enregistré de produits dans cette catégorie"
+
+msgid "Filter by price"
+msgstr "Filtrer par prix"
+
+msgid "Product Categories"
+msgstr "Catégories produit"

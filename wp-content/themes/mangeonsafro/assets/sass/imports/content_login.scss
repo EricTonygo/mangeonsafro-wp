@@ -1,0 +1,55 @@
+@import "compass/css3/border-radius";
+@import "mixins.scss";
+
+@media only screen and (max-width: 850px) {
+    #login_content{
+        margin-top: 2em!important;        
+    }
+}
+
+#login_content{
+    border-bottom: none;
+    padding-bottom: 4em;
+    margin-top: 5em;
+    .ui.container{
+        width: 40em;
+        .ui.fluid.card{
+            @include border-radius(0px);
+            .header{
+                font-weight: 400;
+                font-size: 16px;
+            }
+            .ui.form{
+                label{
+                    @include form_label;
+                }
+                .field{
+                    .ui.button.btn-link {
+                        background-color: white;
+                        border-radius: 0;
+                        font-size: 11pt;
+                        &:hover{
+                            color: #2c3e50;
+                        }
+                    }
+                    .default-link{
+                        color: #2c3e50;
+                        font-size: 11pt;
+                        &:hover{
+                            color: #2c3e50;
+                            text-decoration: underline;
+                        }
+                    }
+                    p.register_message{
+                        font-size: 11pt;
+                        color: #2c3e50;
+                    }
+                }
+                .field.register_message_block{
+                    padding-top: 2em;
+                    padding-bottom: 2em;
+                }
+            }
+        }
+    }
+}

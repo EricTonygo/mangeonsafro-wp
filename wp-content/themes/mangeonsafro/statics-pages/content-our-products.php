@@ -1,0 +1,1 @@
+<?php _e("Our products page", "mangeonsafrodomain"); ?>

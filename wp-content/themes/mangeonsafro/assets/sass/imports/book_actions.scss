@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2017, 9:12:16 PM
+    Author     : BookShare
+*/
+.modal__heading {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #282C35;
+    text-rendering: optimizelegibility;
+}
+
+.ui.modal{
+    text-align:center;
+}
+
+h1.modal__heading {
+    margin-top: 23px;
+    margin-bottom: 0px;
+}
+
+.hide{
+    display:none; 
+}
+
+.text-body-small,.modal p{
+    font-size: 16px;
+}
+
+.message-status{
+    background: #85b8fa;
+    position: absolute;
+    bottom: 0px;
+    height: 43px;
+    width: 100%;
+    padding-top: 10px;
+    color: #fff;
+    padding-left: 8px;
+}
+  
+.share_input{
+    width: 100%;
+    margin-top: 10px;
+}

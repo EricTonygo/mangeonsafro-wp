@@ -1,0 +1,63 @@
+@media only screen and (max-width: 850px) {
+  /* line 5, ../../sass/imports/content_login.scss */
+  #login_content {
+    margin-top: 2em !important;
+  }
+}
+/* line 10, ../../sass/imports/content_login.scss */
+#login_content {
+  border-bottom: none;
+  padding-bottom: 4em;
+  margin-top: 5em;
+}
+/* line 14, ../../sass/imports/content_login.scss */
+#login_content .ui.container {
+  width: 40em;
+}
+/* line 16, ../../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 18, ../../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .header {
+  font-weight: 400;
+  font-size: 16px;
+}
+/* line 23, ../../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form label {
+  font-weight: 700;
+  font-size: 14px;
+  color: #2c3e50;
+}
+/* line 27, ../../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form .field .ui.button.btn-link {
+  background-color: white;
+  border-radius: 0;
+  font-size: 11pt;
+}
+/* line 31, ../../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form .field .ui.button.btn-link:hover {
+  color: #2c3e50;
+}
+/* line 35, ../../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form .field .default-link {
+  color: #2c3e50;
+  font-size: 11pt;
+}
+/* line 38, ../../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form .field .default-link:hover {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+/* line 43, ../../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form .field p.register_message {
+  font-size: 11pt;
+  color: #2c3e50;
+}
+/* line 48, ../../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form .field.register_message_block {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}

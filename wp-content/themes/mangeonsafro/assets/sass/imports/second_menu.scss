@@ -1,0 +1,61 @@
+@import "imports/variables.scss";
+@media only screen and (max-width: 850px) {
+    #second_menu.ui.menu{
+        display: none;
+    }
+    #nav_menu.ui.menu{
+        display: none;
+    }
+    #my_mobile_menu.ui.menu{
+        display: flex !important;
+    }
+}
+#second_menu.ui.menu{
+    margin-top:0;
+    padding: 0.5em 0;
+    margin-bottom:0;
+    border-radius: 0;
+    border-top-color: $BSLight;
+    .ui.container{
+        width:100%;
+        margin-left: 2em!important;
+        margin-right:2em!important;
+
+        .left.menu{
+            .site_title{
+                font-weight: bold;
+                font-size: 12pt;
+                color: #232f3e;
+                margin-left: 0.5em;
+            }
+            .logo{
+                &:hover{
+                    background-color: #FFF;
+                }
+                &:focus{
+                    background-color: #FFF;
+                }
+            }
+            .item{
+                .ui.icon.input{
+                    input{
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+        .center.menu{
+            padding-top: 0.4em;
+
+        }
+
+        .right.menu{
+            .item{
+                .ui.button{
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+}
+

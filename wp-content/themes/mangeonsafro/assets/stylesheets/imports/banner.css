@@ -1,0 +1,163 @@
+@media only screen and (max-width: 850px) {
+  /*    #search_publications_form{
+          display: none;
+      }*/
+  /* line 7, ../../sass/imports/banner.scss */
+  #card_banner_search select {
+    display: none;
+  }
+
+  /* line 10, ../../sass/imports/banner.scss */
+  .banner {
+    height: 60vh !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 17, ../../sass/imports/banner.scss */
+  .ui.container.banner_content {
+    margin-left: 0em !important;
+  }
+}
+/* line 22, ../../sass/imports/banner.scss */
+.banner {
+  height: 71vh;
+  /*background: linear-gradient(-225deg, rgba(30, 30, 30, 0.6)30%, rgba(46, 46, 46,0.5)80%), url('http://unsplash.it/1024/300/?random') no-repeat fixed;*/
+  background: linear-gradient(-225deg, rgba(30, 30, 30, 0.6) 30%, rgba(46, 46, 46, 0.5) 80%), url("../images/slider_bg.jpg") no-repeat fixed;
+  background-size: 100% 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* line 29, ../../sass/imports/banner.scss */
+.banner .banner_content {
+  color: white;
+  flex: 0 0 800px;
+}
+/* line 32, ../../sass/imports/banner.scss */
+.banner .banner_content h1 {
+  font-size: 35pt;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+/* line 37, ../../sass/imports/banner.scss */
+.banner .banner_content h2 {
+  font-size: 18pt;
+  font-weight: lighter;
+  margin-top: 0.5em;
+}
+/* line 42, ../../sass/imports/banner.scss */
+.banner .banner_content #card_banner_search.ui.fluid.card {
+  background: transparent;
+  border-radius: 0;
+}
+/* line 45, ../../sass/imports/banner.scss */
+.banner .banner_content #card_banner_search.ui.fluid.card .content {
+  background: transparent;
+}
+/* line 47, ../../sass/imports/banner.scss */
+.banner .banner_content #card_banner_search.ui.fluid.card .content .ui.action.input {
+  width: 100%;
+  height: 3.3em;
+}
+/* line 50, ../../sass/imports/banner.scss */
+.banner .banner_content #card_banner_search.ui.fluid.card .content .ui.action.input input {
+  border-radius: 0;
+}
+/* line 53, ../../sass/imports/banner.scss */
+.banner .banner_content #card_banner_search.ui.fluid.card .content .ui.action.input select {
+  min-width: 15em;
+}
+/* line 56, ../../sass/imports/banner.scss */
+.banner .banner_content #card_banner_search.ui.fluid.card .content .ui.action.input .ui.button {
+  border-radius: 0;
+}
+
+/* line 65, ../../sass/imports/banner.scss */
+.content_latest_publications.ui.card {
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 1em;
+  background: transparent;
+}
+/* line 70, ../../sass/imports/banner.scss */
+.content_latest_publications.ui.card .content.title_latest_publications {
+  background: #85b8fa;
+  border-radius: 0 !important;
+}
+/* line 73, ../../sass/imports/banner.scss */
+.content_latest_publications.ui.card .content.title_latest_publications .header {
+  font-size: 18pt !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+/* line 81, ../../sass/imports/banner.scss */
+.content_latest_publications.ui.card .content.footer_latest_publications {
+  text-align: center;
+  background: #FFF;
+  border-radius: 0;
+}
+/* line 85, ../../sass/imports/banner.scss */
+.content_latest_publications.ui.card .content.footer_latest_publications .ui.button {
+  border-radius: 0;
+}
+
+/* line 94, ../../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card {
+  border-radius: 0;
+}
+/* line 96, ../../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card:hover {
+  box-shadow: 0 9px 20px 0 #D4D4D5, 0 0 10px 3px #D4D4D5;
+}
+/* line 99, ../../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card:focus {
+  box-shadow: 0 9px 20px 0 #D4D4D5, 0 0 10px 3px #D4D4D5;
+}
+/* line 102, ../../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.content_publication_image {
+  padding: 0;
+}
+/* line 104, ../../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link {
+  color: #212121 !important;
+}
+/* line 106, ../../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link:hover {
+  color: #85b8fa !important;
+}
+/* line 109, ../../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link:focus {
+  color: #85b8fa !important;
+}
+/* line 112, ../../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link .image.as_icon {
+  text-align: center;
+}
+/* line 116, ../../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.content_publication_image .image.as_background {
+  height: 180px !important;
+  /*background-size: 100% 100%;*/
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 121, ../../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.publication_infos .header {
+  font-size: 11pt;
+}
+/* line 123, ../../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.publication_infos .header:hover {
+  color: #85b8fa !important;
+}
+/* line 127, ../../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.publication_infos .meta {
+  font-size: 9pt;
+}
+
+/* line 136, ../../sass/imports/banner.scss */
+.ui.container {
+  width: 1200px;
+}

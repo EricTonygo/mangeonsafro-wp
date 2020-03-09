@@ -1,0 +1,60 @@
+@import "imports/variables.scss";
+
+
+.dynatable-per-page-select {
+    cursor: pointer;
+    word-wrap: break-word;
+    line-height: 1em;
+    white-space: normal;
+    outline: 0;
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0);
+    min-width: 14em;
+    min-height: 2.71428571em;
+    background: #FFF;
+    display: inline-block;
+    padding: .78571429em 2.1em .78571429em 1em;
+    color: rgba(0,0,0,.87);
+    box-shadow: none;
+    border: 1px solid rgba(34,36,38,.15);
+    border-radius: .28571429rem;
+    -webkit-transition: box-shadow .1s ease,width .1s ease;
+    transition: box-shadow .1s ease,width .1s ease;
+}
+
+.dynatable-head a{
+    color:#000;
+}
+
+#dynatable-query-search-my-table {
+    cursor: pointer;
+    word-wrap: break-word;
+    line-height: 1em;
+    white-space: normal;
+    outline: 0;
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0);
+    min-width: 14em;
+    min-height: 2.71428571em;
+    background: #FFF;
+    display: inline-block;
+    padding: .78571429em 2.1em .78571429em 1em;
+    color: rgba(0,0,0,.87);
+    box-shadow: none;
+    border: 1px solid rgba(34,36,38,.15);
+    border-radius: .28571429rem;
+    -webkit-transition: box-shadow .1s ease,width .1s ease;
+    transition: box-shadow .1s ease,width .1s ease;
+}
+.ui.vertical.fluid.tabular.menu{
+    background: #FFF;
+    .item:not(.active){
+        border-bottom: 1px solid #dededf;
+    }
+    .active.item{
+        border-radius: 0!important;
+        background-color: $BSFooter;
+        color: white;
+        border-color: $BSFooter;
+    }
+}

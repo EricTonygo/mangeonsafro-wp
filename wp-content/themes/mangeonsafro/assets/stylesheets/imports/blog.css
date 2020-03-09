@@ -1,0 +1,44 @@
+/* line 2, ../../sass/imports/blog.scss */
+.rigth_content_blog.ui.card {
+  border-radius: 0;
+  box-shadow: none;
+}
+/* line 5, ../../sass/imports/blog.scss */
+.rigth_content_blog.ui.card .ui.items > .item > .content > a.header.post_title {
+  color: #85b8fa !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* line 11, ../../sass/imports/blog.scss */
+.rigth_content_blog.ui.card .ui.items > .item > .content > a.header.post_title:hover {
+  color: #5ca0f8;
+}
+/* line 15, ../../sass/imports/blog.scss */
+.rigth_content_blog.ui.card .ui.items > .item > .content > a.header.post_title:focus {
+  color: #5ca0f8;
+}
+
+/* line 21, ../../sass/imports/blog.scss */
+.ui.card.aside_blog_card {
+  box-shadow: none;
+}
+
+/* line 25, ../../sass/imports/blog.scss */
+.ui.card.aside_blog_card .post_title {
+  color: #85b8fa !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+/* line 31, ../../sass/imports/blog.scss */
+.ui.card.single_post .content .header.post_title {
+  color: #85b8fa !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+
+/* line 37, ../../sass/imports/blog.scss */
+.ui.card.aside_blog_card .ui.list > .item a.header {
+  font-weight: normal;
+  font-size: 14px;
+}

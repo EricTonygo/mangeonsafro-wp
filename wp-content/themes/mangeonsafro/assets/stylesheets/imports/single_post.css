@@ -1,0 +1,52 @@
+/* line 1, ../../sass/imports/single_post.scss */
+.ui.fluid.card.contact_book_owner {
+  border-radius: 0;
+  /*box-shadow: none;*/
+}
+
+/* line 6, ../../sass/imports/single_post.scss */
+.ui.fluid.card.contact_alert_owner {
+  border-radius: 0;
+  /*box-shadow: none;*/
+}
+
+/* line 11, ../../sass/imports/single_post.scss */
+.ui.table.single_alert {
+  /*border:none;*/
+}
+/* line 14, ../../sass/imports/single_post.scss */
+.ui.table.single_alert tr td {
+  /*border-top: none;*/
+  max-width: 0px;
+  padding: 0.5em;
+}
+/* line 18, ../../sass/imports/single_post.scss */
+.ui.table.single_alert tr td .header {
+  font-weight: 700;
+}
+
+/* line 25, ../../sass/imports/single_post.scss */
+.ui.table.single_book {
+  /*border:none;*/
+}
+/* line 28, ../../sass/imports/single_post.scss */
+.ui.table.single_book tr td {
+  /*border-top: none;*/
+  max-width: 0px;
+  padding: 0.5em;
+}
+/* line 32, ../../sass/imports/single_post.scss */
+.ui.table.single_book tr td .header {
+  font-weight: 700;
+}
+
+/* line 39, ../../sass/imports/single_post.scss */
+.ui.fluid.card.book_alert_detail_action {
+  box-shadow: none;
+  border-radius: 0;
+  margin-bottom: 0px;
+}
+/* line 43, ../../sass/imports/single_post.scss */
+.ui.fluid.card.book_alert_detail_action .content.extra {
+  border-top: none !important;
+}

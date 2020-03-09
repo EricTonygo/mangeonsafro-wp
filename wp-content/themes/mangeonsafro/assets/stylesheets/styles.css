@@ -1,0 +1,1589 @@
+@font-face {
+  font-family: 'Benton Sans';
+  src: url("../fonts/bentonsans-regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@media only screen and (max-width: 850px) {
+  /* line 13, ../sass/imports/commons_styles.scss */
+  .ui.float_button.button {
+    bottom: 45px !important;
+    right: 10px !important;
+  }
+}
+/* line 19, ../sass/imports/commons_styles.scss */
+.ui.card .content.extra .ui.dropdown .menu {
+  left: -55px;
+}
+
+/* line 24, ../sass/imports/commons_styles.scss */
+body.pushable > .pusher {
+  /*color: #555;
+      font-size: 12px;
+      line-height: 22px;
+      font-family: "Benton Sans",Helvetica,Arial,sans-serif; */
+  background: #f5f5ea url(../images/BledShare_Background.gif) no-repeat center top fixed;
+}
+
+/* line 33, ../sass/imports/commons_styles.scss */
+canvas#cv {
+  display: none;
+}
+
+/* line 36, ../sass/imports/commons_styles.scss */
+.ui.message {
+  border-radius: 0;
+}
+/* line 39, ../sass/imports/commons_styles.scss */
+.ui.message .content .header {
+  text-transform: none !important;
+}
+
+/* line 45, ../sass/imports/commons_styles.scss */
+.ui.segment {
+  border-radius: 0px;
+}
+
+/* line 49, ../sass/imports/commons_styles.scss */
+.ui.button {
+  border-radius: 0px;
+}
+/* line 51, ../sass/imports/commons_styles.scss */
+.ui.button:hover {
+  box-shadow: 0 1px 1px 0 #D4D4D5, 0 0 1px 0px transparent;
+}
+
+/* line 56, ../sass/imports/commons_styles.scss */
+.ui.primary.button, .ui.blue.button {
+  background-color: #85b8fa;
+  color: white;
+}
+/* line 59, ../sass/imports/commons_styles.scss */
+.ui.primary.button:hover, .ui.blue.button:hover {
+  background-color: #85b8fa;
+  color: white;
+}
+/* line 63, ../sass/imports/commons_styles.scss */
+.ui.primary.button:focus, .ui.blue.button:focus {
+  background-color: #85b8fa;
+  color: white;
+}
+
+/* line 69, ../sass/imports/commons_styles.scss */
+.ui.primary.basic.button, .ui.blue.basic.button {
+  border-color: #85b8fa;
+  color: #85b8fa !important;
+}
+/* line 72, ../sass/imports/commons_styles.scss */
+.ui.primary.basic.button:hover, .ui.blue.basic.button:hover {
+  border-color: #85b8fa;
+  color: #85b8fa !important;
+}
+/* line 76, ../sass/imports/commons_styles.scss */
+.ui.primary.basic.button:focus, .ui.blue.basic.button:focus {
+  border-color: #85b8fa;
+  color: #85b8fa !important;
+}
+
+/* line 82, ../sass/imports/commons_styles.scss */
+.ui.green.button {
+  background-color: #59d49f;
+  color: white;
+}
+/* line 85, ../sass/imports/commons_styles.scss */
+.ui.green.button:hover {
+  background-color: #59d49f;
+  color: white;
+}
+/* line 89, ../sass/imports/commons_styles.scss */
+.ui.green.button:focus {
+  background-color: #59d49f;
+  color: white;
+}
+
+/* line 95, ../sass/imports/commons_styles.scss */
+.ui.whatsapp.green.button {
+  background-color: #00e676;
+  color: white;
+}
+/* line 98, ../sass/imports/commons_styles.scss */
+.ui.whatsapp.green.button:hover {
+  background-color: #00e676;
+  color: white;
+}
+/* line 102, ../sass/imports/commons_styles.scss */
+.ui.whatsapp.green.button:focus {
+  background-color: #00e676;
+  color: white;
+}
+
+/* line 109, ../sass/imports/commons_styles.scss */
+.ui.yellow.button {
+  background-color: #fdbb00;
+  color: white;
+}
+/* line 112, ../sass/imports/commons_styles.scss */
+.ui.yellow.button:hover {
+  background-color: #fdbb00;
+  color: white;
+}
+/* line 116, ../sass/imports/commons_styles.scss */
+.ui.yellow.button:focus {
+  background-color: #fdbb00;
+  color: white;
+}
+
+/* line 122, ../sass/imports/commons_styles.scss */
+.ui.red.button {
+  background-color: #ec2b55;
+  color: white;
+}
+/* line 125, ../sass/imports/commons_styles.scss */
+.ui.red.button:hover {
+  background-color: #ec2b55;
+  color: white;
+}
+/* line 129, ../sass/imports/commons_styles.scss */
+.ui.red.button:focus {
+  background-color: #ec2b55;
+  color: white;
+}
+
+/* line 135, ../sass/imports/commons_styles.scss */
+.ui.orange.ribbon.label {
+  background-color: #fdbb00 !important;
+  border-color: #fdbb00 !important;
+  color: white;
+}
+/* line 139, ../sass/imports/commons_styles.scss */
+.ui.orange.ribbon.label:hover {
+  background-color: #fdbb00 !important;
+  border-color: #fdbb00 !important;
+  color: white;
+}
+/* line 144, ../sass/imports/commons_styles.scss */
+.ui.orange.ribbon.label:focus {
+  background-color: #fdbb00 !important;
+  border-color: #fdbb00 !important;
+  color: white;
+}
+
+/* line 151, ../sass/imports/commons_styles.scss */
+a {
+  color: #85b8fa;
+}
+
+/* line 155, ../sass/imports/commons_styles.scss */
+.chcolor1 {
+  color: #85b8fa !important;
+}
+
+/* line 159, ../sass/imports/commons_styles.scss */
+.ui.table {
+  border-radius: 0px;
+}
+
+/* line 164, ../sass/imports/commons_styles.scss */
+.ui.float_button.button {
+  bottom: 60px;
+  cursor: pointer;
+  position: fixed;
+  right: 22px;
+  z-index: 2;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), 0px 0px 1px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.25), inset 0px -1px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* line 173, ../sass/imports/commons_styles.scss */
+.ui.comments {
+  max-width: none;
+  max-height: 450px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* line 181, ../sass/imports/commons_styles.scss */
+.ui.tabular.menu .item {
+  background-color: #eaeaea;
+  border-radius: 0px !important;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-color: #D4D4D5;
+}
+/* line 189, ../sass/imports/commons_styles.scss */
+.ui.tabular.menu .active.item {
+  border-radius: 0px !important;
+}
+
+/* line 194, ../sass/imports/commons_styles.scss */
+.ui.comments .reply.form textarea {
+  height: auto;
+}
+
+/* line 198, ../sass/imports/commons_styles.scss */
+.ui.form .field > label {
+  font-size: 14px;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 29, 2017, 10:25:46 PM
+    Author     : Bookshare
+*/
+/*body { 
+    background: #f5f5ea url(//skin.livrenpoche.com/frontend/livrenpoche/default/images/bg-owl.gif) no-repeat center top fixed;
+}*/
+/* line 16, ../sass/imports/categories.scss */
+.post-image {
+  width: 100%;
+}
+
+/* line 19, ../sass/imports/categories.scss */
+ody section.middle .container .contentColumn.Product .liWrap .bookDetails .leftBottom .priceCopy {
+  margin-top: 20px;
+  font-size: 12px;
+  margin-left: 0;
+}
+
+/* line 25, ../sass/imports/categories.scss */
+.priceCopy {
+  margin-left: 30px;
+}
+
+/* line 29, ../sass/imports/categories.scss */
+.headingCopies {
+  color: #e84138;
+  font: 17px 'Dosis',sans-serif;
+  margin-left: 0px;
+  margin-top: -2px;
+}
+
+/* line 37, ../sass/imports/categories.scss */
+priceCopy li {
+  background-image: url(//skin.livrenpoche.com/frontend/livrenpoche/default/images/arrowBlue.png);
+}
+
+/* line 41, ../sass/imports/categories.scss */
+#sepline {
+  border-bottom-color: #e1e1d1;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-color: #e1e1d1;
+  border-top-style: solid;
+  border-top-width: 1px;
+  clear: both;
+  display: block;
+  height: 1px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  /*width: 200px;*/
+  /* clear: both; */
+  height: 3px;
+  /* border-top: 1px solid #e1e1d1; */
+  /* border-bottom: 1px solid #e1e1d1; */
+}
+
+/* line 63, ../sass/imports/categories.scss */
+.pad {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+/* line 67, ../sass/imports/categories.scss */
+.author {
+  color: #e84138;
+  padding: 0;
+  line-height: 1em;
+  font-family: 'Dosis',sans-serif;
+  font-weight: normal;
+}
+
+/* line 76, ../sass/imports/categories.scss */
+.pubCov li, .priceCopy li {
+  color: #92927f;
+  padding-left: 15px;
+  background: url(//skin.livrenpoche.com/frontend/livrenpoche/default/images/arrowRed.gif) no-repeat left center;
+}
+
+/* line 82, ../sass/imports/categories.scss */
+.pubCov, .priceCopy {
+  display: block;
+  width: 335px;
+  float: left;
+  list-style: none;
+  margin: 0 0 0 30px;
+  padding: 0;
+}
+
+/* line 91, ../sass/imports/categories.scss */
+.post-title {
+  font-size: large;
+  color: #85b8fa;
+}
+
+/* line 96, ../sass/imports/categories.scss */
+.centered {
+  text-align: center;
+}
+
+/* line 100, ../sass/imports/categories.scss */
+.block {
+  display: block;
+  font-size: smaller;
+  font-weight: 900;
+}
+
+/* line 105, ../sass/imports/categories.scss */
+.post-content {
+  border-top-style: solid;
+  border-top-width: 5px;
+  margin-left: 20px;
+  border-top-color: #e7e7f4;
+}
+
+/* line 111, ../sass/imports/categories.scss */
+.marginalise {
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+
+/* line 115, ../sass/imports/categories.scss */
+.viewable:hover {
+  background: #2989d2 !important;
+  color: #fff !important;
+}
+
+/* line 119, ../sass/imports/categories.scss */
+.getbook {
+  background: #2f87d1;
+  color: white;
+}
+
+/* line 123, ../sass/imports/categories.scss */
+h3.modtitle {
+  background: #FFF;
+  /* opacity: 0.6; */
+  border-radius: 0px;
+  position: relative;
+  z-index: 2;
+  font-size: 15px;
+  display: inline-block;
+  margin: 0 0 20px;
+  padding: 16px;
+  color: #000;
+}
+
+/* line 135, ../sass/imports/categories.scss */
+.post-small-title {
+  font-size: 13px;
+  color: #000;
+}
+
+/* line 139, ../sass/imports/categories.scss */
+.separatordiv:before {
+  content: "";
+  position: absolute;
+  margin-top: 20px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #bfbfbf;
+  z-index: 1;
+}
+
+/* line 149, ../sass/imports/categories.scss */
+h3.modtitle:before {
+  content: "";
+  width: 30px;
+  height: 14px;
+  display: inline-block;
+  background: url(http://localhost/lab.antic.cm/templates/sj_wavenew/images/icon/icon-set.png) no-repeat center;
+}
+
+/* line 156, ../sass/imports/categories.scss */
+h3.modtitle:after {
+  content: "";
+  width: 30px;
+  height: 14px;
+  display: inline-block;
+  background: url(http://localhost/lab.antic.cm/templates/sj_wavenew/images/icon/icon-set.png) no-repeat center;
+}
+
+/* line 163, ../sass/imports/categories.scss */
+.large {
+  font-size: x-large;
+}
+
+/* line 166, ../sass/imports/categories.scss */
+#categories {
+  border-radius: 0px;
+  /*    border-width: thick;
+      border-color: rgba(22, 18, 148, 0.1);*/
+  /*    max-width: 15rem;
+      min-width: 15rem;*/
+  width: 100%;
+}
+/* line 176, ../sass/imports/categories.scss */
+#categories .entete {
+  text-align: center;
+  padding: 1em 0 0 0;
+  color: #0141a1;
+}
+/* line 181, ../sass/imports/categories.scss */
+#categories .plus {
+  font-size: 0.7em;
+  cursor: pointer;
+}
+/* line 186, ../sass/imports/categories.scss */
+#categories .minus {
+  font-size: 0.7em;
+  cursor: pointer;
+}
+/* line 190, ../sass/imports/categories.scss */
+#categories a.item {
+  margin: 0 1.5em;
+  display: none;
+}
+
+/* line 197, ../sass/imports/categories.scss */
+.text-heading--emphasized {
+  color: #fff;
+}
+
+/* line 201, ../sass/imports/categories.scss */
+.text-body--significant, .responsive-table th a, .text-significant, .heading-secondary-responsive {
+  font-weight: 600;
+}
+
+/* line 205, ../sass/imports/categories.scss */
+.text-large {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+/* line 210, ../sass/imports/categories.scss */
+.category-card .category-card__text-wrapper {
+  position: absolute;
+  top: 50%;
+  margin-top: -17.5px;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform .35s;
+  -moz-transition: -moz-transform .35s;
+  transition: transform .35s;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 226, ../sass/imports/categories.scss */
+.category-card:hover .category-card__desc, .category-card:focus .category-card__desc, .category-card:active .category-card__desc {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* line 235, ../sass/imports/categories.scss */
+.category-card .category-card__desc {
+  opacity: 0;
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: opacity .7s,-webkit-transform .35s;
+  -moz-transition: opacity .7s,-webkit-transform .35s;
+  transition: opacity .7s,-webkit-transform .35s;
+}
+
+/* line 251, ../sass/imports/categories.scss */
+.category-card {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+/* line 257, ../sass/imports/categories.scss */
+.category-card .category-card__wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 262, ../sass/imports/categories.scss */
+.category-card .category-card__tint {
+  height: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000);
+}
+
+/* line 269, ../sass/imports/categories.scss */
+.category-card .category-card__image {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform .35s;
+  -moz-transition: -moz-transform .35s;
+  transition: transform .35s;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 100%;
+  height: 220px;
+  background-color: #EFF2F5;
+}
+
+/* line 287, ../sass/imports/categories.scss */
+.category-card.category-classes .category-card__image {
+  background-image: url(/images/home/categories/220/img_category_classes.jpg);
+}
+
+/* line 290, ../sass/imports/categories.scss */
+.category-card:hover .category-card__text-wrapper, .category-card:focus .category-card__text-wrapper, .category-card:active .category-card__text-wrapper {
+  -webkit-transform: translate3d(0, -25%, 0);
+  -moz-transform: translate3d(0, -25%, 0);
+  -ms-transform: translate3d(0, -25%, 0);
+  -o-transform: translate3d(0, -25%, 0);
+  transform: translate3d(0, -25%, 0);
+}
+
+/* line 298, ../sass/imports/categories.scss */
+.category-card:hover .category-card__image, .category-card:focus .category-card__image, .category-card:active .category-card__image {
+  -webkit-transform: scale(1.12);
+  -moz-transform: scale(1.12);
+  -ms-transform: scale(1.12);
+  -o-transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+/* line 307, ../sass/imports/categories.scss */
+.category-card:focus .category-card__tint:after,
+.category-card:active .category-card__tint:after {
+  opacity: .4;
+  background-color: #282C35;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  border-radius: 3px;
+}
+
+/* line 320, ../sass/imports/categories.scss */
+.category-card {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+/* line 325, ../sass/imports/categories.scss */
+.category-card .category-card__wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 329, ../sass/imports/categories.scss */
+.category-card .category-card__image {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform .35s;
+  -moz-transition: -moz-transform .35s;
+  transition: transform .35s;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 100%;
+  height: 220px;
+  background-color: #EFF2F5;
+}
+
+@media only screen and (max-width: 479px) {
+  /* line 347, ../sass/imports/categories.scss */
+  .category-card .category-card__image {
+    height: 150px;
+  }
+}
+/* line 351, ../sass/imports/categories.scss */
+.category-card .category-card__text-wrapper {
+  position: absolute;
+  top: 50%;
+  margin-top: -17.5px;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform .35s;
+  -moz-transition: -moz-transform .35s;
+  transition: transform .35s;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 366, ../sass/imports/categories.scss */
+.category-card .category-card__tint {
+  height: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000);
+}
+
+/* line 372, ../sass/imports/categories.scss */
+.category-card .category-card__desc {
+  opacity: 0;
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: opacity .7s, -webkit-transform .35s;
+  -moz-transition: opacity .7s, -webkit-transform .35s;
+  transition: opacity 0.7s, -webkit-transform 0.35s;
+}
+
+/* line 386, ../sass/imports/categories.scss */
+.category-card:hover .category-card__image,
+.category-card:focus .category-card__image,
+.category-card:active .category-card__image {
+  -webkit-transform: scale(1.12);
+  -moz-transform: scale(1.12);
+  -ms-transform: scale(1.12);
+  -o-transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+/* line 395, ../sass/imports/categories.scss */
+.category-card:hover .category-card__tint:after,
+.category-card:focus .category-card__tint:after,
+.category-card:active .category-card__tint:after {
+  opacity: .4;
+  background-color: #282C35;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  border-radius: 3px;
+}
+
+/* line 408, ../sass/imports/categories.scss */
+.category-card:hover .category-card__text-wrapper,
+.category-card:focus .category-card__text-wrapper,
+.category-card:active .category-card__text-wrapper {
+  -webkit-transform: translate3d(0, -25%, 0);
+  -moz-transform: translate3d(0, -25%, 0);
+  -ms-transform: translate3d(0, -25%, 0);
+  -o-transform: translate3d(0, -25%, 0);
+  transform: translate3d(0, -25%, 0);
+}
+
+/* line 417, ../sass/imports/categories.scss */
+.category-card:hover .category-card__desc,
+.category-card:focus .category-card__desc,
+.category-card:active .category-card__desc {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 850px) {
+  /* line 6, ../sass/imports/first_menu.scss */
+  #first_menu.ui.menu .left.menu .item {
+    display: none;
+  }
+}
+/* line 14, ../sass/imports/first_menu.scss */
+#first_menu.ui.menu {
+  height: 2em;
+  box-shadow: none;
+  background-color: #85b8fa;
+  border-bottom-color: #85b8fa;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+/* line 23, ../sass/imports/first_menu.scss */
+#first_menu.ui.menu .right.menu .item {
+  /*padding-left: 0;*/
+  color: white;
+}
+/* line 30, ../sass/imports/first_menu.scss */
+#first_menu.ui.menu .right.menu .item.dropdown .menu .item:hover {
+  background: #232f3e !important;
+  color: #FFF !important;
+}
+/* line 34, ../sass/imports/first_menu.scss */
+#first_menu.ui.menu .right.menu .item.dropdown .menu .item:focus {
+  background: #232f3e !important;
+  color: #FFF !important;
+}
+/* line 47, ../sass/imports/first_menu.scss */
+#first_menu.ui.menu .left.menu .item {
+  /*padding-left: 0;*/
+  color: white;
+}
+
+/* line 58, ../sass/imports/first_menu.scss */
+.ui.menu .item:before {
+  width: 0;
+}
+
+@media only screen and (max-width: 850px) {
+  /* line 3, ../sass/imports/second_menu.scss */
+  #second_menu.ui.menu {
+    display: none;
+  }
+
+  /* line 6, ../sass/imports/second_menu.scss */
+  #nav_menu.ui.menu {
+    display: none;
+  }
+
+  /* line 9, ../sass/imports/second_menu.scss */
+  #my_mobile_menu.ui.menu {
+    display: flex !important;
+  }
+}
+/* line 13, ../sass/imports/second_menu.scss */
+#second_menu.ui.menu {
+  margin-top: 0;
+  padding: 0.5em 0;
+  margin-bottom: 0;
+  border-radius: 0;
+  border-top-color: #85b8fa;
+}
+/* line 19, ../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container {
+  width: 100%;
+  margin-left: 2em !important;
+  margin-right: 2em !important;
+}
+/* line 25, ../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container .left.menu .site_title {
+  font-weight: bold;
+  font-size: 12pt;
+  color: #232f3e;
+  margin-left: 0.5em;
+}
+/* line 32, ../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container .left.menu .logo:hover {
+  background-color: #FFF;
+}
+/* line 35, ../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container .left.menu .logo:focus {
+  background-color: #FFF;
+}
+/* line 41, ../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container .left.menu .item .ui.icon.input input {
+  border-radius: 0;
+}
+/* line 47, ../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container .center.menu {
+  padding-top: 0.4em;
+}
+/* line 54, ../sass/imports/second_menu.scss */
+#second_menu.ui.menu .ui.container .right.menu .item .ui.button {
+  border-radius: 0;
+}
+
+/* line 3, ../sass/imports/mobile_menu.scss */
+#my_mobile_menu.ui.menu {
+  margin-top: 0;
+  /*padding: 0.5em 0;*/
+  margin-bottom: 0;
+  border-radius: 0;
+  border-top-color: #85b8fa;
+}
+/* line 9, ../sass/imports/mobile_menu.scss */
+#my_mobile_menu.ui.menu .ui.container {
+  width: 100%;
+  /*        margin-left: 2em!important;
+          margin-right:2em!important;*/
+}
+/* line 15, ../sass/imports/mobile_menu.scss */
+#my_mobile_menu.ui.menu .ui.container .left.menu .site_title {
+  font-weight: bold;
+  font-size: 12pt;
+  color: #232f3e;
+  margin-left: 0.5em;
+}
+/* line 22, ../sass/imports/mobile_menu.scss */
+#my_mobile_menu.ui.menu .ui.container .left.menu .logo:hover {
+  background-color: #FFF;
+}
+/* line 25, ../sass/imports/mobile_menu.scss */
+#my_mobile_menu.ui.menu .ui.container .left.menu .logo:focus {
+  background-color: #FFF;
+}
+/* line 31, ../sass/imports/mobile_menu.scss */
+#my_mobile_menu.ui.menu .ui.container .left.menu .item .ui.icon.input input {
+  border-radius: 0;
+}
+/* line 41, ../sass/imports/mobile_menu.scss */
+#my_mobile_menu.ui.menu .ui.container .right.menu .item .ui.button {
+  border-radius: 0;
+}
+
+@media only screen and (max-width: 850px) {
+  /*    #search_publications_form{
+          display: none;
+      }*/
+  /* line 7, ../sass/imports/banner.scss */
+  #card_banner_search select {
+    display: none;
+  }
+
+  /* line 10, ../sass/imports/banner.scss */
+  .banner {
+    height: 60vh !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 17, ../sass/imports/banner.scss */
+  .ui.container.banner_content {
+    margin-left: 0em !important;
+  }
+}
+/* line 22, ../sass/imports/banner.scss */
+.banner {
+  height: 71vh;
+  /*background: linear-gradient(-225deg, rgba(30, 30, 30, 0.6)30%, rgba(46, 46, 46,0.5)80%), url('http://unsplash.it/1024/300/?random') no-repeat fixed;*/
+  background: linear-gradient(-225deg, rgba(30, 30, 30, 0.6) 30%, rgba(46, 46, 46, 0.5) 80%), url("../images/slider_bg.jpg") no-repeat fixed;
+  background-size: 100% 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* line 29, ../sass/imports/banner.scss */
+.banner .banner_content {
+  color: white;
+  flex: 0 0 800px;
+}
+/* line 32, ../sass/imports/banner.scss */
+.banner .banner_content h1 {
+  font-size: 35pt;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+/* line 37, ../sass/imports/banner.scss */
+.banner .banner_content h2 {
+  font-size: 18pt;
+  font-weight: lighter;
+  margin-top: 0.5em;
+}
+/* line 42, ../sass/imports/banner.scss */
+.banner .banner_content #card_banner_search.ui.fluid.card {
+  background: transparent;
+  border-radius: 0;
+}
+/* line 45, ../sass/imports/banner.scss */
+.banner .banner_content #card_banner_search.ui.fluid.card .content {
+  background: transparent;
+}
+/* line 47, ../sass/imports/banner.scss */
+.banner .banner_content #card_banner_search.ui.fluid.card .content .ui.action.input {
+  width: 100%;
+  height: 3.3em;
+}
+/* line 50, ../sass/imports/banner.scss */
+.banner .banner_content #card_banner_search.ui.fluid.card .content .ui.action.input input {
+  border-radius: 0;
+}
+/* line 53, ../sass/imports/banner.scss */
+.banner .banner_content #card_banner_search.ui.fluid.card .content .ui.action.input select {
+  min-width: 15em;
+}
+/* line 56, ../sass/imports/banner.scss */
+.banner .banner_content #card_banner_search.ui.fluid.card .content .ui.action.input .ui.button {
+  border-radius: 0;
+}
+
+/* line 65, ../sass/imports/banner.scss */
+.content_latest_publications.ui.card {
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 1em;
+  background: transparent;
+}
+/* line 70, ../sass/imports/banner.scss */
+.content_latest_publications.ui.card .content.title_latest_publications {
+  background: #85b8fa;
+  border-radius: 0 !important;
+}
+/* line 73, ../sass/imports/banner.scss */
+.content_latest_publications.ui.card .content.title_latest_publications .header {
+  font-size: 18pt !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+/* line 81, ../sass/imports/banner.scss */
+.content_latest_publications.ui.card .content.footer_latest_publications {
+  text-align: center;
+  background: #FFF;
+  border-radius: 0;
+}
+/* line 85, ../sass/imports/banner.scss */
+.content_latest_publications.ui.card .content.footer_latest_publications .ui.button {
+  border-radius: 0;
+}
+
+/* line 94, ../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card {
+  border-radius: 0;
+}
+/* line 96, ../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card:hover {
+  box-shadow: 0 9px 20px 0 #D4D4D5, 0 0 10px 3px #D4D4D5;
+}
+/* line 99, ../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card:focus {
+  box-shadow: 0 9px 20px 0 #D4D4D5, 0 0 10px 3px #D4D4D5;
+}
+/* line 102, ../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.content_publication_image {
+  padding: 0;
+}
+/* line 104, ../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link {
+  color: #212121 !important;
+}
+/* line 106, ../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link:hover {
+  color: #85b8fa !important;
+}
+/* line 109, ../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link:focus {
+  color: #85b8fa !important;
+}
+/* line 112, ../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link .image.as_icon {
+  text-align: center;
+}
+/* line 116, ../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.content_publication_image .image.as_background {
+  height: 180px !important;
+  /*background-size: 100% 100%;*/
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 121, ../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.publication_infos .header {
+  font-size: 11pt;
+}
+/* line 123, ../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.publication_infos .header:hover {
+  color: #85b8fa !important;
+}
+/* line 127, ../sass/imports/banner.scss */
+.list_latest_publications .column .publication_card.ui.card .content.publication_infos .meta {
+  font-size: 9pt;
+}
+
+/* line 136, ../sass/imports/banner.scss */
+.ui.container {
+  width: 1200px;
+}
+
+/* line 3, ../sass/imports/footer.scss */
+.footitle {
+  background: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #ffffff;
+  text-align: left;
+  margin: 5px 0 20px;
+}
+
+/* line 14, ../sass/imports/footer.scss */
+div.yt-socialbt {
+  display: inline-block;
+  margin-right: 12px;
+  text-align: left;
+}
+/* line 19, ../sass/imports/footer.scss */
+div.yt-socialbt i.icon {
+  font-size: 1.5em;
+}
+
+/* line 26, ../sass/imports/footer.scss */
+.yt-socialbt a {
+  width: 35px;
+  height: 35px;
+  line-height: 34px;
+}
+
+/* line 32, ../sass/imports/footer.scss */
+.footbottom {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+/* line 37, ../sass/imports/footer.scss */
+.blog-links {
+  text-align: left;
+}
+
+/* line 41, ../sass/imports/footer.scss */
+.ui.vertical.segment.footer {
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  border-top-style: solid !important;
+  border-top-width: 0.1px !important;
+  border-top-color: #dededf !important;
+  background: #232f3e;
+  color: #FFF;
+  margin-top: 1em;
+}
+/* line 49, ../sass/imports/footer.scss */
+.ui.vertical.segment.footer a {
+  color: #FFF;
+}
+/* line 52, ../sass/imports/footer.scss */
+.ui.vertical.segment.footer .four.wide.column.center.aligned {
+  box-shadow: none;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2017, 11:19:41 PM
+    Author     : Bookshare
+*/
+/* line 11, ../sass/imports/newpost.scss */
+.newpost {
+  text-align: left !important;
+  background: rgba(146, 134, 148, 0.04);
+  border-radius: 5px;
+}
+
+/* line 17, ../sass/imports/newpost.scss */
+.newpost-container {
+  padding-top: 21px !important;
+  padding-bottom: 20px !important;
+}
+
+/* line 22, ../sass/imports/newpost.scss */
+#save-btn {
+  background-color: #4183c4;
+}
+
+/* line 26, ../sass/imports/newpost.scss */
+.label_terms_use {
+  text-align: justify;
+  padding-bottom: 2em;
+}
+
+/* line 2, ../sass/imports/nav_menu.scss */
+#nav_menu {
+  padding-top: 0px;
+  margin-top: 0px;
+  border-radius: 0px;
+  border-top: none;
+  min-height: 4em;
+  background: #f5f5f5;
+}
+/* line 12, ../sass/imports/nav_menu.scss */
+#nav_menu .here:before {
+  content: "";
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-style: solid;
+  border-color: transparent transparent transparent #85b8fa;
+  border-width: 17px 0px 17px 10px;
+  bottom: 0px;
+  right: -10px;
+}
+/* line 24, ../sass/imports/nav_menu.scss */
+#nav_menu li.here {
+  padding: 8px 20px;
+  margin-right: 30px;
+  background: #85b8fa;
+  color: white;
+  position: relative;
+}
+/* line 31, ../sass/imports/nav_menu.scss */
+#nav_menu li {
+  padding: 8px 3px;
+  /*margin-right: 30px;*/
+  color: #272222;
+  font-weight: 900;
+  position: relative;
+}
+/* line 38, ../sass/imports/nav_menu.scss */
+#nav_menu .breadcrumb {
+  list-style: none;
+  background-color: #f5f5f5;
+  display: inline-flex;
+}
+
+/* line 4, ../sass/imports/myaccount.scss */
+.dynatable-per-page-select {
+  cursor: pointer;
+  word-wrap: break-word;
+  line-height: 1em;
+  white-space: normal;
+  outline: 0;
+  -webkit-transform: rotateZ(0);
+  transform: rotateZ(0);
+  min-width: 14em;
+  min-height: 2.71428571em;
+  background: #FFF;
+  display: inline-block;
+  padding: .78571429em 2.1em .78571429em 1em;
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: none;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: .28571429rem;
+  -webkit-transition: box-shadow .1s ease,width .1s ease;
+  transition: box-shadow .1s ease,width .1s ease;
+}
+
+/* line 25, ../sass/imports/myaccount.scss */
+.dynatable-head a {
+  color: #000;
+}
+
+/* line 29, ../sass/imports/myaccount.scss */
+#dynatable-query-search-my-table {
+  cursor: pointer;
+  word-wrap: break-word;
+  line-height: 1em;
+  white-space: normal;
+  outline: 0;
+  -webkit-transform: rotateZ(0);
+  transform: rotateZ(0);
+  min-width: 14em;
+  min-height: 2.71428571em;
+  background: #FFF;
+  display: inline-block;
+  padding: .78571429em 2.1em .78571429em 1em;
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: none;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: .28571429rem;
+  -webkit-transition: box-shadow .1s ease,width .1s ease;
+  transition: box-shadow .1s ease,width .1s ease;
+}
+
+/* line 49, ../sass/imports/myaccount.scss */
+.ui.vertical.fluid.tabular.menu {
+  background: #FFF;
+}
+/* line 51, ../sass/imports/myaccount.scss */
+.ui.vertical.fluid.tabular.menu .item:not(.active) {
+  border-bottom: 1px solid #dededf;
+}
+/* line 54, ../sass/imports/myaccount.scss */
+.ui.vertical.fluid.tabular.menu .active.item {
+  border-radius: 0 !important;
+  background-color: #232f3e;
+  color: white;
+  border-color: #232f3e;
+}
+
+@media only screen and (max-width: 850px) {
+  /* line 5, ../sass/imports/content_login.scss */
+  #login_content {
+    margin-top: 2em !important;
+  }
+}
+/* line 10, ../sass/imports/content_login.scss */
+#login_content {
+  border-bottom: none;
+  padding-bottom: 4em;
+  margin-top: 5em;
+}
+/* line 14, ../sass/imports/content_login.scss */
+#login_content .ui.container {
+  width: 40em;
+}
+/* line 16, ../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 18, ../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .header {
+  font-weight: 400;
+  font-size: 16px;
+}
+/* line 23, ../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form label {
+  font-weight: 700;
+  font-size: 14px;
+  color: #2c3e50;
+}
+/* line 27, ../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form .field .ui.button.btn-link {
+  background-color: white;
+  border-radius: 0;
+  font-size: 11pt;
+}
+/* line 31, ../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form .field .ui.button.btn-link:hover {
+  color: #2c3e50;
+}
+/* line 35, ../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form .field .default-link {
+  color: #2c3e50;
+  font-size: 11pt;
+}
+/* line 38, ../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form .field .default-link:hover {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+/* line 43, ../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form .field p.register_message {
+  font-size: 11pt;
+  color: #2c3e50;
+}
+/* line 48, ../sass/imports/content_login.scss */
+#login_content .ui.container .ui.fluid.card .ui.form .field.register_message_block {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+@media only screen and (max-width: 850px) {
+  /* line 5, ../sass/imports/content_register.scss */
+  #register_content {
+    margin-top: 2em !important;
+  }
+}
+/* line 10, ../sass/imports/content_register.scss */
+#register_content {
+  border-bottom: none;
+  padding-bottom: 4em;
+  margin-top: 3em;
+}
+/* line 14, ../sass/imports/content_register.scss */
+#register_content .ui.container {
+  width: 40em;
+}
+/* line 16, ../sass/imports/content_register.scss */
+#register_content .ui.container .ui.fluid.card {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 18, ../sass/imports/content_register.scss */
+#register_content .ui.container .ui.fluid.card .header {
+  font-weight: 400;
+  font-size: 16px;
+}
+/* line 23, ../sass/imports/content_register.scss */
+#register_content .ui.container .ui.fluid.card .ui.form label {
+  font-weight: 700;
+  font-size: 14px;
+  color: #2c3e50;
+}
+
+/* line 31, ../sass/imports/content_register.scss */
+.profile_card.ui.fluid.card {
+  border-radius: 0 !important;
+}
+/* line 34, ../sass/imports/content_register.scss */
+.profile_card.ui.fluid.card .content .header {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* line 41, ../sass/imports/content_register.scss */
+.profile_card.ui.fluid.card .content .profile_form_card.ui.fluid.card {
+  box-shadow: none;
+}
+
+/* line 2, ../sass/imports/publication_notification.scss */
+.new_publication_card.ui.fluid.card {
+  border-radius: 0 !important;
+}
+/* line 5, ../sass/imports/publication_notification.scss */
+.new_publication_card.ui.fluid.card .content .header {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 12pt;
+}
+/* line 10, ../sass/imports/publication_notification.scss */
+.new_publication_card.ui.fluid.card .content .header.dividing {
+  font-size: 10.5pt;
+}
+/* line 15, ../sass/imports/publication_notification.scss */
+.new_publication_card.ui.fluid.card .content .new_publication_form_card.ui.fluid.card {
+  box-shadow: none;
+}
+
+/* line 22, ../sass/imports/publication_notification.scss */
+.ui.form input, .ui.form textarea, .ui.form .selection.dropdown {
+  border-radius: 0px !important;
+}
+
+/* line 27, ../sass/imports/publication_notification.scss */
+.account_left_main_content.ui.card {
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+  /*    .content:first-child{
+          background: #FFF;
+          border-radius: 0!important;
+      }*/
+}
+
+/* line 39, ../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card {
+  border-radius: 0;
+}
+/* line 41, ../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card:hover {
+  box-shadow: 0 9px 20px 0 #D4D4D5, 0 0 10px 3px #D4D4D5;
+}
+/* line 44, ../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card:focus {
+  box-shadow: 0 9px 20px 0 #D4D4D5, 0 0 10px 3px #D4D4D5;
+}
+/* line 47, ../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.content_publication_image {
+  padding: 0;
+}
+/* line 49, ../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link {
+  color: #212121 !important;
+}
+/* line 51, ../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link:hover {
+  color: #85b8fa !important;
+}
+/* line 54, ../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link:focus {
+  color: #85b8fa !important;
+}
+/* line 57, ../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link .image.as_icon {
+  text-align: center;
+}
+/* line 62, ../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.content_publication_image .image.as_background {
+  height: 200px !important;
+  /*background-size: 100% 100%;*/
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 67, ../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.publication_infos .header {
+  font-size: 11pt;
+}
+/* line 69, ../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.publication_infos .header:hover {
+  color: #85b8fa !important;
+}
+/* line 73, ../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.publication_infos .meta {
+  font-size: 9pt;
+}
+
+/* line 83, ../sass/imports/publication_notification.scss */
+#categories.ui.vertical.menu .item .header:not(.ui) {
+  font-size: 14px;
+}
+/* line 86, ../sass/imports/publication_notification.scss */
+#categories.ui.vertical.menu .item .title:not(.ui) {
+  font-size: 14px;
+  display: inline;
+  font-weight: bold;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2017, 9:12:16 PM
+    Author     : BookShare
+*/
+/* line 10, ../sass/imports/book_actions.scss */
+.modal__heading {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #282C35;
+  text-rendering: optimizelegibility;
+}
+
+/* line 21, ../sass/imports/book_actions.scss */
+.ui.modal {
+  text-align: center;
+}
+
+/* line 25, ../sass/imports/book_actions.scss */
+h1.modal__heading {
+  margin-top: 23px;
+  margin-bottom: 0px;
+}
+
+/* line 30, ../sass/imports/book_actions.scss */
+.hide {
+  display: none;
+}
+
+/* line 34, ../sass/imports/book_actions.scss */
+.text-body-small, .modal p {
+  font-size: 16px;
+}
+
+/* line 38, ../sass/imports/book_actions.scss */
+.message-status {
+  background: #85b8fa;
+  position: absolute;
+  bottom: 0px;
+  height: 43px;
+  width: 100%;
+  padding-top: 10px;
+  color: #fff;
+  padding-left: 8px;
+}
+
+/* line 49, ../sass/imports/book_actions.scss */
+.share_input {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* line 1, ../sass/imports/single_post.scss */
+.ui.fluid.card.contact_book_owner {
+  border-radius: 0;
+  /*box-shadow: none;*/
+}
+
+/* line 6, ../sass/imports/single_post.scss */
+.ui.fluid.card.contact_alert_owner {
+  border-radius: 0;
+  /*box-shadow: none;*/
+}
+
+/* line 11, ../sass/imports/single_post.scss */
+.ui.table.single_alert {
+  /*border:none;*/
+}
+/* line 14, ../sass/imports/single_post.scss */
+.ui.table.single_alert tr td {
+  /*border-top: none;*/
+  max-width: 0px;
+  padding: 0.5em;
+}
+/* line 18, ../sass/imports/single_post.scss */
+.ui.table.single_alert tr td .header {
+  font-weight: 700;
+}
+
+/* line 25, ../sass/imports/single_post.scss */
+.ui.table.single_book {
+  /*border:none;*/
+}
+/* line 28, ../sass/imports/single_post.scss */
+.ui.table.single_book tr td {
+  /*border-top: none;*/
+  max-width: 0px;
+  padding: 0.5em;
+}
+/* line 32, ../sass/imports/single_post.scss */
+.ui.table.single_book tr td .header {
+  font-weight: 700;
+}
+
+/* line 39, ../sass/imports/single_post.scss */
+.ui.fluid.card.book_alert_detail_action {
+  box-shadow: none;
+  border-radius: 0;
+  margin-bottom: 0px;
+}
+/* line 43, ../sass/imports/single_post.scss */
+.ui.fluid.card.book_alert_detail_action .content.extra {
+  border-top: none !important;
+}
+
+/* line 2, ../sass/imports/blog.scss */
+.rigth_content_blog.ui.card {
+  border-radius: 0;
+  box-shadow: none;
+}
+/* line 5, ../sass/imports/blog.scss */
+.rigth_content_blog.ui.card .ui.items > .item > .content > a.header.post_title {
+  color: #85b8fa !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* line 11, ../sass/imports/blog.scss */
+.rigth_content_blog.ui.card .ui.items > .item > .content > a.header.post_title:hover {
+  color: #5ca0f8;
+}
+/* line 15, ../sass/imports/blog.scss */
+.rigth_content_blog.ui.card .ui.items > .item > .content > a.header.post_title:focus {
+  color: #5ca0f8;
+}
+
+/* line 21, ../sass/imports/blog.scss */
+.ui.card.aside_blog_card {
+  box-shadow: none;
+}
+
+/* line 25, ../sass/imports/blog.scss */
+.ui.card.aside_blog_card .post_title {
+  color: #85b8fa !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+/* line 31, ../sass/imports/blog.scss */
+.ui.card.single_post .content .header.post_title {
+  color: #85b8fa !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+
+/* line 37, ../sass/imports/blog.scss */
+.ui.card.aside_blog_card .ui.list > .item a.header {
+  font-weight: normal;
+  font-size: 14px;
+}

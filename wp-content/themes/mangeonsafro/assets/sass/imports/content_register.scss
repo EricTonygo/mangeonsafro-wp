@@ -1,0 +1,45 @@
+@import "compass/css3/border-radius";
+@import "mixins.scss";
+
+@media only screen and (max-width: 850px) {
+    #register_content{
+        margin-top: 2em!important;        
+    }
+}
+
+#register_content{
+    border-bottom: none;
+    padding-bottom: 4em;
+    margin-top: 3em;
+    .ui.container{
+        width: 40em;
+        .ui.fluid.card{
+            @include border-radius(0px);
+            .header{
+                font-weight: 400;
+                font-size: 16px;
+            }
+            .ui.form{
+                label{
+                    @include form_label;
+                }
+            }
+        }
+    }
+}
+
+.profile_card.ui.fluid.card{
+    border-radius: 0!important;
+    .content{
+        .header{
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+    .content{
+        .profile_form_card.ui.fluid.card{
+           box-shadow: none;
+        }
+    }
+}

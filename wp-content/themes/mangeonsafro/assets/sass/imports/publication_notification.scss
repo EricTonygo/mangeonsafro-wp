@@ -1,0 +1,92 @@
+@import "imports/mixins.scss";
+.new_publication_card.ui.fluid.card{
+    border-radius: 0!important;
+    .content{
+        .header{
+            text-transform: uppercase;
+            font-weight: normal;
+            font-size: 12pt;
+        }
+        .header.dividing{
+            font-size: 10.5pt;
+        }
+    }
+    .content{
+        .new_publication_form_card.ui.fluid.card{
+            box-shadow: none;
+        }
+    }
+}
+
+.ui.form{
+    input, textarea, .selection.dropdown{
+        border-radius: 0px!important; 
+    }
+}
+
+.account_left_main_content.ui.card{
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+/*    .content:first-child{
+        background: #FFF;
+        border-radius: 0!important;
+    }*/
+}
+
+.list_publications{
+    .column{
+        .publication_card.ui.card{
+            border-radius: 0;
+            &:hover{
+                box-shadow: 0 9px 20px 0 #D4D4D5, 0 0 10px 3px #D4D4D5;
+            }
+            &:focus{
+                box-shadow: 0 9px 20px 0 #D4D4D5, 0 0 10px 3px #D4D4D5;
+            }
+            .content.content_publication_image{
+                padding: 0;
+                .image_alert_link{
+                    color: #212121!important;
+                    &:hover{
+                        color: #85b8fa!important;
+                    }
+                    &:focus{
+                        color: #85b8fa!important;
+                    }
+                    .image.as_icon{
+                        text-align: center;
+                    }
+                }
+                
+                .image.as_background{
+                    @include publication_logo_position(200px);
+                }
+            }
+            .content.publication_infos{
+                .header{
+                    font-size: 11pt;
+                    &:hover{
+                        color: #85b8fa!important;
+                    }
+                }
+                .meta{
+                    font-size: 9pt;
+                }
+            }
+        }
+    }
+}
+
+#categories.ui.vertical.menu {
+    .item{
+        .header:not(.ui) {
+            font-size: 14px;
+        }
+        .title:not(.ui) {
+            font-size: 14px;
+            display: inline;
+            font-weight: bold;
+        }
+    }
+}

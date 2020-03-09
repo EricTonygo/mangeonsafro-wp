@@ -1,0 +1,46 @@
+.ui.fluid.card.contact_book_owner{
+    border-radius: 0;
+    /*box-shadow: none;*/
+}
+
+.ui.fluid.card.contact_alert_owner{
+    border-radius: 0;
+    /*box-shadow: none;*/
+}
+
+.ui.table.single_alert{
+    /*border:none;*/
+    tr{
+        td{
+            /*border-top: none;*/
+            max-width: 0px;
+            padding: 0.5em;
+            .header{
+                font-weight: 700;   
+            }
+        }
+    }
+}
+
+.ui.table.single_book{
+    /*border:none;*/
+    tr{
+        td{
+            /*border-top: none;*/
+            max-width: 0px;
+            padding: 0.5em;
+            .header{
+                font-weight: 700;   
+            }
+        }
+    }
+}
+
+.ui.fluid.card.book_alert_detail_action{
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 0px;
+    .content.extra{
+        border-top: none!important;
+    }
+}

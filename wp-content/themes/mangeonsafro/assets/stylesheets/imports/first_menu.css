@@ -1,0 +1,40 @@
+@media only screen and (max-width: 850px) {
+  /* line 6, ../../sass/imports/first_menu.scss */
+  #first_menu.ui.menu .left.menu .item {
+    display: none;
+  }
+}
+/* line 14, ../../sass/imports/first_menu.scss */
+#first_menu.ui.menu {
+  height: 2em;
+  box-shadow: none;
+  background-color: #85b8fa;
+  border-bottom-color: #85b8fa;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+/* line 23, ../../sass/imports/first_menu.scss */
+#first_menu.ui.menu .right.menu .item {
+  /*padding-left: 0;*/
+  color: white;
+}
+/* line 30, ../../sass/imports/first_menu.scss */
+#first_menu.ui.menu .right.menu .item.dropdown .menu .item:hover {
+  background: #232f3e !important;
+  color: #FFF !important;
+}
+/* line 34, ../../sass/imports/first_menu.scss */
+#first_menu.ui.menu .right.menu .item.dropdown .menu .item:focus {
+  background: #232f3e !important;
+  color: #FFF !important;
+}
+/* line 47, ../../sass/imports/first_menu.scss */
+#first_menu.ui.menu .left.menu .item {
+  /*padding-left: 0;*/
+  color: white;
+}
+
+/* line 58, ../../sass/imports/first_menu.scss */
+.ui.menu .item:before {
+  width: 0;
+}

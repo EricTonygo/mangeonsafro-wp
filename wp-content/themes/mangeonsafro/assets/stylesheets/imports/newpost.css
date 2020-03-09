@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2017, 11:19:41 PM
+    Author     : Bookshare
+*/
+/* line 11, ../../sass/imports/newpost.scss */
+.newpost {
+  text-align: left !important;
+  background: rgba(146, 134, 148, 0.04);
+  border-radius: 5px;
+}
+
+/* line 17, ../../sass/imports/newpost.scss */
+.newpost-container {
+  padding-top: 21px !important;
+  padding-bottom: 20px !important;
+}
+
+/* line 22, ../../sass/imports/newpost.scss */
+#save-btn {
+  background-color: #4183c4;
+}
+
+/* line 26, ../../sass/imports/newpost.scss */
+.label_terms_use {
+  text-align: justify;
+  padding-bottom: 2em;
+}

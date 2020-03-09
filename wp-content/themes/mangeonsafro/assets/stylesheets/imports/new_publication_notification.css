@@ -1,0 +1,23 @@
+/* line 1, ../../sass/imports/new_publication_notification.scss */
+.new_publication_card.ui.fluid.card {
+  border-radius: 0 !important;
+}
+/* line 4, ../../sass/imports/new_publication_notification.scss */
+.new_publication_card.ui.fluid.card .content .header {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 12pt;
+}
+/* line 9, ../../sass/imports/new_publication_notification.scss */
+.new_publication_card.ui.fluid.card .content .header.dividing {
+  font-size: 10.5pt;
+}
+/* line 14, ../../sass/imports/new_publication_notification.scss */
+.new_publication_card.ui.fluid.card .content .new_publication_form_card.ui.fluid.card {
+  box-shadow: none;
+}
+
+/* line 21, ../../sass/imports/new_publication_notification.scss */
+.ui.form input, .ui.form textarea, .ui.form .selection.dropdown {
+  border-radius: 0px !important;
+}

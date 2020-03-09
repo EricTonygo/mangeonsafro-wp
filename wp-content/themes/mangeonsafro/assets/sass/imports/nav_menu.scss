@@ -1,0 +1,44 @@
+@import "imports/variables.scss";
+#nav_menu{
+    padding-top: 0px;
+    margin-top: 0px;
+    border-radius: 0px;
+    border-top: none;
+    min-height: 4em;
+    background:#f5f5f5;
+    .ul{
+
+    }
+    .here:before{
+        content: "";
+        content: "";
+        height: 0;
+        width: 0;
+        position: absolute;
+        border-style: solid;
+        border-color: transparent transparent transparent $BSLight;
+        border-width: 17px 0px 17px 10px;
+        bottom: 0px;
+        right: -10px;
+    }
+    li.here{
+        padding: 8px 20px;
+        margin-right: 30px;
+        background: $BSLight;
+        color: white;
+        position: relative;
+    }
+    li{
+        padding: 8px 3px;
+        /*margin-right: 30px;*/
+        color: #272222;
+        font-weight: 900;
+        position: relative;
+    }
+    .breadcrumb{
+        list-style: none;
+        background-color: #f5f5f5;
+        display: inline-flex;
+    }
+} 
+

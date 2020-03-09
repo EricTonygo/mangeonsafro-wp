@@ -1,0 +1,56 @@
+@import "imports/variables.scss";
+@import "imports/variables.scss";
+.footitle{
+    background: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #ffffff;
+    text-align: left;
+    margin: 5px 0 20px;
+
+}
+
+div.yt-socialbt {
+    display: inline-block;
+    margin-right: 12px;
+    text-align: left;
+
+    i.icon  {
+        font-size: 1.5em;
+    }
+
+}
+
+
+.yt-socialbt a {
+    width: 35px;
+    height: 35px;
+    line-height: 34px;
+} 
+
+.footbottom{
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.blog-links{
+    text-align: left;
+}
+
+.ui.vertical.segment.footer{
+    border-bottom: 1px solid rgba(34,36,38,.15);
+    border-top-style: solid !important;
+    border-top-width: 0.1px !important;
+    border-top-color: #dededf !important;
+    background: $BSFooter;
+    color: #FFF;
+    margin-top: 1em;
+    a{
+        color: #FFF
+    }
+    .four.wide.column.center.aligned{
+        box-shadow: none;
+    }
+    
+}    

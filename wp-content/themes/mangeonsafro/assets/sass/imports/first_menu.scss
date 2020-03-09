@@ -1,0 +1,62 @@
+@import "imports/variables.scss";
+
+@media only screen and (max-width: 850px) {
+    #first_menu.ui.menu{
+        .left.menu{
+            .item{
+                display: none;
+            }
+        }
+    }
+
+}
+
+#first_menu.ui.menu{
+    height: 2em;
+    box-shadow: none;
+    background-color: $BSLight;
+    border-bottom-color: $BSLight;
+    .right.item{
+
+    }
+    .right.menu{
+        .item{
+            /*padding-left: 0;*/
+            color: white;
+        }
+        .item.dropdown{
+            .menu{
+                .item{
+                    &:hover{
+                        background: $BSFooter!important;
+                        color: #FFF!important;
+                    }
+                    &:focus{
+                        background: $BSFooter!important;
+                        color: #FFF!important;
+                    }
+                }
+
+            }
+        }
+    }
+    .left.item{
+
+    }
+    .left.menu{
+        .item{
+            /*padding-left: 0;*/
+            color: white;
+
+        }
+    }
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.ui.menu{
+    .item:before{
+        width: 0;
+    }
+}
+

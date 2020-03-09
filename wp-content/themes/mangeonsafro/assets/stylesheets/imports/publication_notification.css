@@ -1,0 +1,98 @@
+/* line 2, ../../sass/imports/publication_notification.scss */
+.new_publication_card.ui.fluid.card {
+  border-radius: 0 !important;
+}
+/* line 5, ../../sass/imports/publication_notification.scss */
+.new_publication_card.ui.fluid.card .content .header {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 12pt;
+}
+/* line 10, ../../sass/imports/publication_notification.scss */
+.new_publication_card.ui.fluid.card .content .header.dividing {
+  font-size: 10.5pt;
+}
+/* line 15, ../../sass/imports/publication_notification.scss */
+.new_publication_card.ui.fluid.card .content .new_publication_form_card.ui.fluid.card {
+  box-shadow: none;
+}
+
+/* line 22, ../../sass/imports/publication_notification.scss */
+.ui.form input, .ui.form textarea, .ui.form .selection.dropdown {
+  border-radius: 0px !important;
+}
+
+/* line 27, ../../sass/imports/publication_notification.scss */
+.account_left_main_content.ui.card {
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+  /*    .content:first-child{
+          background: #FFF;
+          border-radius: 0!important;
+      }*/
+}
+
+/* line 39, ../../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card {
+  border-radius: 0;
+}
+/* line 41, ../../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card:hover {
+  box-shadow: 0 9px 20px 0 #D4D4D5, 0 0 10px 3px #D4D4D5;
+}
+/* line 44, ../../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card:focus {
+  box-shadow: 0 9px 20px 0 #D4D4D5, 0 0 10px 3px #D4D4D5;
+}
+/* line 47, ../../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.content_publication_image {
+  padding: 0;
+}
+/* line 49, ../../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link {
+  color: #212121 !important;
+}
+/* line 51, ../../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link:hover {
+  color: #85b8fa !important;
+}
+/* line 54, ../../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link:focus {
+  color: #85b8fa !important;
+}
+/* line 57, ../../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.content_publication_image .image_alert_link .image.as_icon {
+  text-align: center;
+}
+/* line 62, ../../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.content_publication_image .image.as_background {
+  height: 200px !important;
+  /*background-size: 100% 100%;*/
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 67, ../../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.publication_infos .header {
+  font-size: 11pt;
+}
+/* line 69, ../../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.publication_infos .header:hover {
+  color: #85b8fa !important;
+}
+/* line 73, ../../sass/imports/publication_notification.scss */
+.list_publications .column .publication_card.ui.card .content.publication_infos .meta {
+  font-size: 9pt;
+}
+
+/* line 83, ../../sass/imports/publication_notification.scss */
+#categories.ui.vertical.menu .item .header:not(.ui) {
+  font-size: 14px;
+}
+/* line 86, ../../sass/imports/publication_notification.scss */
+#categories.ui.vertical.menu .item .title:not(.ui) {
+  font-size: 14px;
+  display: inline;
+  font-weight: bold;
+}

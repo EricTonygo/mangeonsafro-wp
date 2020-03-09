@@ -1,0 +1,48 @@
+@media only screen and (max-width: 850px) {
+  /* line 5, ../../sass/imports/content_register.scss */
+  #register_content {
+    margin-top: 2em !important;
+  }
+}
+/* line 10, ../../sass/imports/content_register.scss */
+#register_content {
+  border-bottom: none;
+  padding-bottom: 4em;
+  margin-top: 3em;
+}
+/* line 14, ../../sass/imports/content_register.scss */
+#register_content .ui.container {
+  width: 40em;
+}
+/* line 16, ../../sass/imports/content_register.scss */
+#register_content .ui.container .ui.fluid.card {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 18, ../../sass/imports/content_register.scss */
+#register_content .ui.container .ui.fluid.card .header {
+  font-weight: 400;
+  font-size: 16px;
+}
+/* line 23, ../../sass/imports/content_register.scss */
+#register_content .ui.container .ui.fluid.card .ui.form label {
+  font-weight: 700;
+  font-size: 14px;
+  color: #2c3e50;
+}
+
+/* line 31, ../../sass/imports/content_register.scss */
+.profile_card.ui.fluid.card {
+  border-radius: 0 !important;
+}
+/* line 34, ../../sass/imports/content_register.scss */
+.profile_card.ui.fluid.card .content .header {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* line 41, ../../sass/imports/content_register.scss */
+.profile_card.ui.fluid.card .content .profile_form_card.ui.fluid.card {
+  box-shadow: none;
+}
