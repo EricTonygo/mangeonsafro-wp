@@ -131,7 +131,7 @@
                                 <div class="col-sm-6 col-md-4">
                                     <div class="form-group">
                                         <label for="country" class="form-label"><?php _e("Country", "mangeonsafrodomain"); ?></label>                                        
-                                        <select id="country" name="country" class="form-control">
+                                        <select id="country" name="country-code" class="form-control">
                                             <?php include(locate_template('statics-pages/content-select-country.php')); ?>
                                         </select>
                                     </div>

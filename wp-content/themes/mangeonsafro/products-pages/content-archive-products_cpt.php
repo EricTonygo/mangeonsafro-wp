@@ -188,7 +188,7 @@ if ($products->have_posts()) {
                                 </div>
                             
                             <?php else: ?>
-                            <a href="<?php echo esc_url(add_query_arg($params_arg, wp_make_link_relative(esc_url(get_category_link($product_parent_category->term_id))))); ?>" class="nav-link d-flex justify-content-between mb-2 <?php if ($product_parent_category->term_id == get_category(get_query_var('cat'))->term_id): ?> active <?php endif; ?>"><span><?php echo $product_parent_category->name; ?></span></a>
+                            <a href="<?php echo esc_url(add_query_arg($params_arg, wp_make_link_relative(esc_url(get_category_link($product_parent_category->term_id))))); ?>" class="font-weight-bold nav-link d-flex justify-content-between mb-2 <?php if ($product_parent_category->term_id == get_category(get_query_var('cat'))->term_id): ?> active <?php endif; ?>"><span><?php echo $product_parent_category->name; ?></span></a>
                             <?php endif; ?>
                         <?php endforeach ?>
 

@@ -21,7 +21,7 @@ if (is_user_logged_in()) {
             $user_localisation_city = $localisation_data["city"];
             $user_localisation_region = $localisation_data["region"];
             $user_localisation_country = $localisation_data["country"];
-            $user_country_code = removeslashes(esc_attr(trim($_POST['country-code'])));
+            $country_code = removeslashes(esc_attr(trim($_POST['country-code'])));
             $user_phone_number = removeslashes(esc_attr(trim($_POST['phone-number'])));
             $user_pro_name = removeslashes(esc_attr(trim($_POST['pro-name'])));
             $user_pro_email = removeslashes(esc_attr(trim($_POST['pro-email'])));
@@ -35,7 +35,7 @@ if (is_user_logged_in()) {
                 'last_name' => $last_name,
                 'display_name' => $display_name,
                 'role' => $my_user_role,
-                'country_code' => $user_country_code,
+                'country_code' => $country_code,
                 'phone_number' => $user_phone_number,
                 'user_city' => $user_city,
                 'user_zip' => $user_zip,
@@ -72,7 +72,7 @@ if (is_user_logged_in()) {
         $display_name = $current_user->display_name;
         $first_name = $current_user->first_name;
         $last_name = $current_user->last_name;
-        $user_country_code = get_user_meta($user_id, "user-country-code", true);
+        $country_code = get_user_meta($user_id, "user-country-code", true);
         $user_phone_number = get_user_meta($user_id, "user-phone-number", true);
         $user_localisation = get_user_meta($user_id, "user-localisation", true);
         $user_pro_name = get_user_meta($user_id, "user-pro-name", true);

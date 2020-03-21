@@ -1,9 +1,9 @@
-<option selected><?php _e("Choose country", "mangeonsafrodomain")?></option>
-        <option value="af">Afghanistan</option>
-        <option value="ax">Aland Islands</option>
-        <option value="al">Albania</option>
-        <option value="dz">Algeria</option>
-        <option value="as">American Samoa</option>
+<option ><?php _e("Choose country", "mangeonsafrodomain")?></option>
+        <option value="af" <?php if($country_code == "af") :?>selected<?php endif; ?>>Afghanistan</option>
+        <option value="ax" <?php if($country_code == "ax") :?>selected<?php endif; ?>>Aland Islands</option>
+        <option value="al" <?php if($country_code == "al") :?>selected<?php endif; ?>>Albania</option>
+        <option value="dz" <?php if($country_code == "dz") :?>selected<?php endif; ?>>Algeria</option>
+        <option value="as" <?php if($country_code == "as") :?>selected<?php endif; ?>>American Samoa</option>
 <!--        <div class="item" data-value="+376"><i class="ad flag"></i>Andorra(+376)</div>
         <div class="item" data-value="+244"><i class="ao flag"></i>Angola(+244)</div>
         <div class="item" data-value="+1264"><i class="ai flag"></i>Anguilla(+1 264)</div>
@@ -75,7 +75,7 @@
         <div class="item" data-value="+298"><i class="fo flag"></i>Faroe Islands(+298)</div>
         <div class="item" data-value="+679"><i class="fj flag"></i>Fiji(+679)</div>
         <div class="item" data-value="+358"><i class="fi flag"></i>Finland(+358)</div>-->
-        <option value="fr">France</option>
+        <option value="fr" <?php if($country_code == "fr") :?>selected<?php endif; ?>>France</option>
 <!--        <div class="item" data-value="+594"><i class="gf flag"></i>French Guian(+594)</div>
         <div class="item" data-value="+689"><i class="pf flag"></i>French Polynesia(+689)</div>
         <div class="item" data-value="tf"><i class="tf flag"></i>French Territories(+596)</div>
@@ -231,8 +231,8 @@
         <div class="item" data-value="+256"><i class="ug flag"></i>Uganda(+256)</div>
         <div class="item" data-value="+380"><i class="ua flag"></i>Ukraine(+380)</div>
         <div class="item" data-value="+971"><i class="ae flag"></i>United Arab Emirates(+971)</div>-->
-        <option value="gb">United Kingdom</option>
-        <option value="us">United States</option>
+        <option value="gb" <?php if($country_code == "gb") :?>selected<?php endif; ?>>United Kingdom</option>
+        <option value="us" <?php if($country_code == "us") :?>selected<?php endif; ?>>United States</option>
 <!--        <div class="item" data-value="+598"><i class="uy flag"></i>Uruguay(+598)</div>
         <div class="item" data-value="um"><i class="um flag"></i>Us Minor Islands</div>
         <div class="item" data-value="+1340"><i class="vi flag"></i>Us Virgin Islands(+1 340)</div>
@@ -246,4 +246,4 @@
         <div class="item" data-value="eh"><i class="eh flag"></i>Western Sahara</div>
         <div class="item" data-value="+967"><i class="ye flag"></i>Yemen(+967)</div>
         <div class="item" data-value="zm"><i class="zm flag"></i>Zambia(+260)</div>-->
-        <option value="zw">Zimbabwe</option>
+        <option value="zw" <?php if($country_code == "zw") :?>selected<?php endif; ?>>Zimbabwe</option>
