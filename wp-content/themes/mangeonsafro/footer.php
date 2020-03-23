@@ -5,8 +5,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <div class="font-weight-bold text-uppercase text-lg text-dark mb-3">Mangeons Afro<span class="text-primary"></span></div>
-                    <p><?php _e("Website promoting African culinary diversities", "mangeonsafrodomain"); ?></p>
+                    <div class="font-weight-bold text-uppercase text-lg text-dark mb-1">Mangeons Afro<span class="text-primary"></span></div>
+                    <!--<p class="mb-1"><?php _e("Website promoting African culinary diversities", "mangeonsafrodomain"); ?></p>-->
+                    <ul class="list-unstyled">
+                        <li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('about-us', 'mangeonsafrodomain')))) ?>" class="text-muted"><?php _e("About us", "mangeonsafrodomain"); ?></a></li>
+                        <li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('contact-us', 'mangeonsafrodomain')))) ?>" class="text-muted"><?php _e("Contact", "mangeonsafrodomain"); ?> </a></li>
+                        <li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('blog', 'mangeonsafrodomain')))) ?>" class="text-muted"><?php _e("Blog", "mangeonsafrodomain"); ?> </a></li>
+                        <li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('faq', 'mangeonsafrodomain')))) ?>" class="text-muted"><?php _e("F.A.Q", "mangeonsafrodomain"); ?> </a></li>
+                    </ul>
                     <ul class="list-inline">
                         <li class="list-inline-item"><a href="#" target="_blank" title="twitter" class="text-muted text-hover-primary"><i class="fab fa-twitter"></i></a></li>
                         <li class="list-inline-item"><a href="#" target="_blank" title="facebook" class="text-muted text-hover-primary"><i class="fab fa-facebook"></i></a></li>
@@ -15,31 +21,31 @@
                         <li class="list-inline-item"><a href="#" target="_blank" title="vimeo" class="text-muted text-hover-primary"><i class="fab fa-vimeo"></i></a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-                    <h6 class="text-uppercase text-dark mb-3"><?php _e("Shops", "mangeonsafrodomain"); ?></h6>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <div class="font-weight-bold text-uppercase text-lg text-dark mb-1"><?php _e("Legal Notice", "mangeonsafrodomain"); ?><span class="text-primary"></span></div>
+                    <!--<h6 class="text-uppercase text-dark text-lg mb-3"><?php _e("Legal Notice", "mangeonsafrodomain"); ?></h6>-->
                     <ul class="list-unstyled">
-                        <li> <a href="#" class="text-muted"><?php _e("Restaurant", "mangeonsafrodomain"); ?></a></li>
-                        <li> <a href="#" class="text-muted"><?php _e("Grocery store", "mangeonsafrodomain"); ?></a></li>
-                        <li> <a href="#" class="text-muted"><?php _e("Catering", "mangeonsafrodomain"); ?></a></li>
-                        <li> <a href="#" class="text-muted"><?php _e("Homemade", "mangeonsafrodomain"); ?></a></li>
-                        <li> <a href="#" class="text-muted"><?php _e("Our shops", "mangeonsafrodomain"); ?></a></li>
+                        <li> <a href="#" class="text-muted"><?php _e("Terms of use", "mangeonsafrodomain"); ?></a></li>
+                        <li> <a href="#" class="text-muted"><?php _e("Privacy policy", "mangeonsafrodomain"); ?></a></li>
+                        <li> <a href="#" class="text-muted"><?php _e("Use of cookies", "mangeonsafrodomain"); ?></a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-                    <h6 class="text-uppercase text-dark mb-3"><?php _e("Company", "mangeonsafrodomain"); ?></h6>
+                    <div class="font-weight-bold text-uppercase text-lg text-dark mb-1"><?php _e("Professionnal", "mangeonsafrodomain"); ?><span class="text-primary"></span></div>
+                    <!--<h6 class="text-uppercase text-dark text-lg mb-3"><?php _e("Professionnal", "mangeonsafrodomain"); ?></h6>-->
                     <ul class="list-unstyled">
                         <?php if (!is_user_logged_in()): ?>
-                            <li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('customer-zone', 'mangeonsafrodomain')))) ?>" class="text-muted"><?php _e("Customer zone", "mangeonsafrodomain"); ?></a></li>
+                            <!--<li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('customer-zone', 'mangeonsafrodomain')))) ?>" class="text-muted"><?php _e("Seller zone", "mangeonsafrodomain"); ?></a></li>-->
                         <?php else: ?>
-                            <li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('account', 'mangeonsafrodomain') . "/" . __('profile', 'mangeonsafrodomain'))->ID)) ?>" class="text-muted"><?php _e("My profile", "mangeonsafrodomain"); ?></a></li>    
+                            <!--<li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('account', 'mangeonsafrodomain') . "/" . __('seller-zone', 'mangeonsafrodomain'))->ID)) ?>" class="text-muted"><?php _e("Seller zone", "mangeonsafrodomain"); ?></a></li>-->    
                         <?php endif; ?>
-                        <li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('about-us', 'mangeonsafrodomain')))) ?>" class="text-muted"><?php _e("About us", "mangeonsafrodomain"); ?></a></li>
-                        <li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('contact-us', 'mangeonsafrodomain')))) ?>" class="text-muted"><?php _e("Contact", "mangeonsafrodomain"); ?> </a></li>
-                        <li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('faq', 'mangeonsafrodomain')))) ?>" class="text-muted"><?php _e("F.A.Q", "mangeonsafrodomain"); ?> </a></li>
+                        <li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('professionnal-space', 'mangeonsafrodomain') . "/" . __('login', 'mangeonsafrodomain'))->ID)) ?>" class="text-muted"><?php _e("Login/Register", "mangeonsafrodomain"); ?></a></li>
+                        <li> <a href="<?php echo wp_make_link_relative(get_permalink(get_page_by_path(__('professionnal-space', 'mangeonsafrodomain') . "/" . __('help', 'mangeonsafrodomain'))->ID)) ?>" class="text-muted"><?php _e("Help", "mangeonsafrodomain"); ?></a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4">
-                    <h6 class="text-uppercase text-dark mb-3"><?php _e("Daily offers and discounts", "mangeonsafrodomain"); ?></h6>
+                <div class="col-lg-3">
+                    <div class="font-weight-bold text-uppercase text-lg text-dark mb-1"><?php _e("Newsletters", "mangeonsafrodomain"); ?><span class="text-primary"></span></div>
+                    <!--<h6 class="text-uppercase text-dark text-lg mb-3"><?php _e("Newsletters", "mangeonsafrodomain"); ?></h6>-->
                     <p class="mb-3"><?php _e("Stay informed about new offers and daily discounts", "mangeonsafrodomain"); ?></p>
                     <form action="#" id="newsletter-form">
                         <div class="input-group mb-3">
@@ -167,35 +173,35 @@
         }(document, 'script', 'facebook-jssdk'));</script>
 <?php endif ?>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0-vYyoLewswX3Mq5Fcnh3rokGi69nqu0&libraries=places&language=en"></script>
-<?php if (is_page(get_page_by_path(__('account', 'mangeonsafrodomain'). "/" . __("seller-zone", "mangeonsafrodomain") . "/" . __("shops", "mangeonsafrodomain") . "/" . __("new-shop", "mangeonsafrodomain"))->ID) || is_singular("shops_cpt")): ?>
+<?php if (is_page(get_page_by_path(__('account', 'mangeonsafrodomain') . "/" . __("seller-zone", "mangeonsafrodomain") . "/" . __("shops", "mangeonsafrodomain") . "/" . __("new-shop", "mangeonsafrodomain"))->ID) || is_singular("shops_cpt")): ?>
     <script>
-//        var input_shop_city = document.getElementById('shop-city');
-//        var options = {
-//            //bounds: defaultBounds,
-//            types: ['(cities)']
-//        };
-//        autocomplete_shop_city = new google.maps.places.Autocomplete(input_shop_city, options);
+        //        var input_shop_city = document.getElementById('shop-city');
+        //        var options = {
+        //            //bounds: defaultBounds,
+        //            types: ['(cities)']
+        //        };
+        //        autocomplete_shop_city = new google.maps.places.Autocomplete(input_shop_city, options);
     </script>
 <?php endif ?>
 
-<?php if (is_page(get_page_by_path(__('account', 'mangeonsafrodomain'). "/" . __("seller-zone", "mangeonsafrodomain") . "/" . __("products", "mangeonsafrodomain") . "/" . __("new-product", "mangeonsafrodomain"))->ID) || is_singular("products_cpt")): ?>
+<?php if (is_page(get_page_by_path(__('account', 'mangeonsafrodomain') . "/" . __("seller-zone", "mangeonsafrodomain") . "/" . __("products", "mangeonsafrodomain") . "/" . __("new-product", "mangeonsafrodomain"))->ID) || is_singular("products_cpt")): ?>
     <script>
-//        var input_product_city = document.getElementById('product-city');
-//        var options = {
-//            //bounds: defaultBounds,
-//            types: ['(cities)']
-//        };
-//        autocomplete_product_city = new google.maps.places.Autocomplete(input_product_city, options);
+        //        var input_product_city = document.getElementById('product-city');
+        //        var options = {
+        //            //bounds: defaultBounds,
+        //            types: ['(cities)']
+        //        };
+        //        autocomplete_product_city = new google.maps.places.Autocomplete(input_product_city, options);
     </script>
 <?php endif ?>
 <?php if (is_page(get_page_by_path(__('account', 'mangeonsafrodomain') . "/" . __("profile", "mangeonsafrodomain"))->ID)): ?>
     <script>
-//                var input_user_localisation = document.getElementById('localisation');
-//                var options = {
-//                    //bounds: defaultBounds,
-//                    types: ['(cities)']
-//                };
-//                autocomplete_user_localisation = new google.maps.places.Autocomplete(input_user_localisation, options);
+        //                var input_user_localisation = document.getElementById('localisation');
+        //                var options = {
+        //                    //bounds: defaultBounds,
+        //                    types: ['(cities)']
+        //                };
+        //                autocomplete_user_localisation = new google.maps.places.Autocomplete(input_user_localisation, options);
     </script>
 <?php endif ?>
 </body>

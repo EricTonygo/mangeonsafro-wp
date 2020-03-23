@@ -704,8 +704,8 @@ msgstr "Offres et réductions quotidiennes"
 msgid "Stay informed about new offers and daily discounts"
 msgstr "Restez informés sur de nouvelles offres et les réductions quotidiennes"
 
-msgid "Website promoting African culinary diversities"
-msgstr "Site de promotion des diversités culinaires africaines"
+msgid "Website promoting African culinary diversity"
+msgstr "Site de promotion de la diversité culinaire africaine"
 
 msgid "Your Email Address"
 msgstr "Votre adresse email"
@@ -776,29 +776,29 @@ msgstr "Commandes"
 msgid "Sign out"
 msgstr "Déconnexion"
 
-msgid "Restaurant"
-msgstr "Restaurant"
+msgid "Restaurants"
+msgstr "Restaurants"
 
-msgid "restaurant-en"
-msgstr "restaurant-fr"
+msgid "restaurants-en"
+msgstr "restaurants-fr"
 
 msgid "Catering"
-msgstr "Traiteur"
+msgstr "Traiteurs"
 
 msgid "catering"
-msgstr "traiteur"
+msgstr "traiteurs"
 
 msgid "Homemade"
 msgstr "Faits maison"
 
 msgid "homemade"
-msgstr "fait-maison"
+msgstr "faits-maison"
 
-msgid "Grocery store"
-msgstr "Epicerie"
+msgid "Grocery stores"
+msgstr "Epiceries"
 
 msgid "grocery-store"
-msgstr "epicerie"
+msgstr "epiceries"
 
 msgid "List all"
 msgstr "Afficher tout"
@@ -1342,3 +1342,21 @@ msgstr "Filtrer par prix"
 
 msgid "Product Categories"
 msgstr "Catégories produit"
+
+msgid "Professionnal space"
+msgstr "Espace professionnel"
+
+msgid "Legal Notice"
+msgstr "Mentions legales"
+
+msgid "Use of cookies"
+msgstr "Utilisation des cookies"
+
+msgid "Good Plans"
+msgstr "Bons plans"
+
+msgid "Login/Register"
+msgstr "Connexion/Inscription"
+
+msgid "Professionnal"
+msgstr "Professionnel"

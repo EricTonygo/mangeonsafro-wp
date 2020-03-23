@@ -45,7 +45,7 @@
                 <div class="card border-0 text-white text-center"><img src="<?php echo wp_make_link_relative(get_template_directory_uri() . '/assets/img/photo/christopher-campbell-28571-unsplash.jpg'); ?>" alt="Card image" class="card-img">
                     <div class="card-img-overlay d-flex align-items-center"> 
                         <div class="w-100 py-3">
-                            <h2 class="display-3 font-weight-bold mb-4"><?php echo get_category_by_slug(__('restaurant-en', 'mangeonsafrodomain'))->name; ?></h2><a href="<?php echo wp_make_link_relative(esc_url(get_category_link(get_category_by_slug(__('restaurant-en', 'mangeonsafrodomain'))->term_id))) ?>" class="btn btn-light"><?php _e("List all", "mangeonsafrodomain"); ?><i class="fa-arrow-right fa ml-2"></i></a>
+                            <h2 class="display-3 font-weight-bold mb-4"><?php echo get_category_by_slug(__('restaurants-en', 'mangeonsafrodomain'))->name; ?></h2><a href="<?php echo wp_make_link_relative(esc_url(get_category_link(get_category_by_slug(__('restaurant-en', 'mangeonsafrodomain'))->term_id))) ?>" class="btn btn-light"><?php _e("List all", "mangeonsafrodomain"); ?><i class="fa-arrow-right fa ml-2"></i></a>
                         </div>
                     </div>
                 </div>
